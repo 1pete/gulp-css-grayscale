@@ -15,7 +15,7 @@
     "url": "https://github.com/tomek-f/gulp-css-grayscale.git"
   },
   "dependencies": {
-    "lodash.merge": "^3.0.2",
+    "lodash.merge": "^3.3.1",
     "through2": "^2.0.0"
   }
 }
