@@ -11,7 +11,7 @@
     "grayscale"
   ],
   "repository": {
-    "type": "mercurial",
+    "type": "git",
     "url": "https://github.com/tomek-f/gulp-css-grayscale.git"
   },
   "dependencies": {

@@ -1,0 +1,24 @@
+a {
+	background: url('img/path/');
+	background: url('lalala');
+	background: url('hahaha');
+	background: url('hahaha');
+	color: #ffea12;
+	color:#ffea12;
+	color: cornflowerblue;
+	color:cornflowerblue;
+	color:white;
+	color: white;
+	color: black;
+	color: #000001;
+	color:yellow;
+	color: rgba(30,25,98,0.5);
+	color: rgba(30,25,98,.5);
+	color: rgb(  30 , 25  , 98 );
+	color: crimson;
+	color: crimson;
+	color: hsl(255, 50%, 50%);
+	color: hsla(255, 50%, 50%, .5);
+	color: hsla(244, 59%, 12%, .5);
+	color: hsl(186, 100%, 10%);
+}
