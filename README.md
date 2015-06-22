@@ -7,7 +7,14 @@ Converts css to grayscale version
 
 ## Important!!1
 
-BETA
+BETA!!1
+
+## Todo
+
+* Tests
+* Comments
+* ~~Format~~
+* ~~Better log~~
 
 ## Installation
 
@@ -59,7 +66,7 @@ var defaults = {
     
     algorithm: 'lightness',
 
-    logProgress: true
+    logProgress: false
 
 };
 ```

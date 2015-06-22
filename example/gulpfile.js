@@ -1,10 +1,13 @@
-var gulp = require('gulp');
-var cssGs = require('../index.js');
+/* global require */
+
+var gulp = require('gulp'),
+    cssGs = require('../index.js');
 
 gulp.task('replace', function() {
     return gulp.src('./src/**/*.*')
         .pipe(cssGs({
-            logProgress: false,
+            logProgress: true,
+            //algorithm: 'average',
             additionalMethods: [
                 {
                     find: /img\/path/ig,

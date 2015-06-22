@@ -3,8 +3,8 @@
 #content.hr {padding-top:20px !important;}
 
 #content .globalError {width:960px;height:406px;}
-#content .globalError h6 {margin:0;padding:100px 0 20px 70px;color:#171717;text-transform:uppercase;font-weight:bold;font-size:48px;font-family:PkoBpRegular, Tahoma Helvetica, Geneva;}
-#content .globalError p {margin:0;padding:0 0 20px 70px;color:#171717;font-size:24px;line-height:24px;font-family:PkoBpRegular, Tahoma Helvetica, Geneva;}
+#content .globalError h6 {margin:0;padding:100px 0 20px 70px;color:#171717;text-transform:uppercase;font-weight:bold;font-size:48px;font-family:johndoeRegular, Tahoma Helvetica, Geneva;}
+#content .globalError p {margin:0;padding:0 0 20px 70px;color:#171717;font-size:24px;line-height:24px;font-family:johndoeRegular, Tahoma Helvetica, Geneva;}
 #content .globalError.search p {font-size: 18px;}
 #content .globalError p span {color: #666;display:block;width:300px;
 	white-space:pre;
@@ -23,8 +23,8 @@
 #content h1 {padding:14px 0 30px 20px;}
 #content h1.small, #content .section h1.small {font-size:23px;line-height:24px;}
 #content h1.short {width: 510px;}
-#content h2 {margin:0 0 12px 0;color:#323232;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;font-weight:normal;font-size:16px;}
-#content h2.blue {margin:0 0 12px 20px;color:#003472;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;font-weight:normal;font-size:24px;}
+#content h2 {margin:0 0 12px 0;color:#323232;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;font-weight:normal;font-size:16px;}
+#content h2.blue {margin:0 0 12px 20px;color:#003472;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;font-weight:normal;font-size:24px;}
 #content h3 {margin:0 0 12px 0;line-height:14px;font-size:12px;text-transform:uppercase;}
 #content h3 a {display:block;color:#003574;
 	-webkit-transition:color .2s;
@@ -35,7 +35,7 @@
 #content h3 a span, #content h3 span {text-transform:none;}
 #content h3 a:hover,
 #content h3 a:focus  {color:#a7a7a7;}
-#content h6 {margin:0 0 12px 0;color:#2d2d2d;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;font-weight:normal;font-size:13px;}
+#content h6 {margin:0 0 12px 0;color:#2d2d2d;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;font-weight:normal;font-size:13px;}
 #content p {padding-bottom:10px;line-height:14px;}
 #content small {color:#999999;}
 #content a, .fancybox-wrap a {color:#00347d;cursor:pointer;
@@ -59,7 +59,7 @@ input[type=text], input[type=password], input[type=tel] {width:165px; margin:0;p
 	-o-transition:background .3s;
 	transition:background .3s;
 }
-.section input[type="text"], .section input[type="password"] {font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;}
+.section input[type="text"], .section input[type="password"] {font-family:johndoeRegular, Tahoma, Helvetica, Geneva;}
 .error input[type=text], .error input[type=tel], .error input[type=password], .error textarea {border-color:#c7181d !important;}
 input.autocompleteOn[type=text] {
 	-webkit-border-bottom-left-radius: 0;
@@ -76,7 +76,7 @@ input[type=text].disabled:focus, input[type=password].disabled:focus {background
 input[type=text]:focus, input[type=password]:focus {background-color:#fff;}
 
 body .pagination {float:right;margin:0 17px 0 0;position:relative;z-index:10;}
-body .pagination li {float:left;padding:0 4px;color:#a7a7a7;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;border-left:1px solid #e6e6e6;}
+body .pagination li {float:left;padding:0 4px;color:#a7a7a7;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;border-left:1px solid #e6e6e6;}
 body .pagination li a {float:left;color: #00347D;
     -webkit-transition:color .2s;
     -moz-transition:color .2s;
@@ -110,7 +110,7 @@ body .pagination li.prev span, body .pagination li.next span {display:block;widt
 #content div.text.contact h2, #content div.text .contact h2 {margin-left:-20px !important;padding:27px 0 27px 20px !important;font-size:14px !important;color:#7a7a7a;border-top:1px solid #e6e6e6;}
 #content div.text.contact h2:first-child, #content div.text .contact h2:first-child {padding-top:0 !important;border-top:0;}
 #content div.text.contact p, #content div.text .contact p {padding-bottom:20px;}
-#content div.text.contact strong, #content div.text .contact strong {font-weight:normal;color:#000;font-size:18px;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;}
+#content div.text.contact strong, #content div.text .contact strong {font-weight:normal;color:#000;font-size:18px;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;}
 #content div.text.contact small strong {font-size:100%;font-weight:bold;font-family:Tahoma, Helvetica, Geneva;}
 #content div.text.rates-text-1 p {padding: 0;}
 #content div.text.rates-text-2 {padding-bottom: 10px; padding-top: 10px;}
@@ -123,8 +123,8 @@ body .pagination li.prev span, body .pagination li.next span {display:block;widt
 #content div.text h2 sup {font-size: 14px!important;vertical-align: top;position: relative;top: -5px;font-family: Tahoma, Helvetica, Geneva;}
 #content div.text.art h2 {display:none;}
 .eporadnik #content .section div.text h2 {font-size:185% !important;}
-#content div.text h3 {margin:0;padding:0 0 10px 0;font-size:140%;line-height:110%;color:#000000;text-transform:none;font-weight:normal;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;}
-#content div.text h4 {margin:0;padding:0 0 20px 0;font-size:150%;line-height:110%;color:#908f8f;font-weight:normal;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;}
+#content div.text h3 {margin:0;padding:0 0 10px 0;font-size:140%;line-height:110%;color:#000000;text-transform:none;font-weight:normal;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;}
+#content div.text h4 {margin:0;padding:0 0 20px 0;font-size:150%;line-height:110%;color:#908f8f;font-weight:normal;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;}
 #content div.text dfn {color:#9c9c9c;font-style:normal;}
 #content div.text p dfn {color:#4C4C4C;}
 #content .text ul.list-above-form {
@@ -158,7 +158,7 @@ body .pagination li.prev span, body .pagination li.next span {display:block;widt
 	box-sizing: border-box;
 }
 #content .section.wideSection {width:960px;border:none;float:none;}
-#content .section h1 {margin:37px 0 30px 16px;padding:0;line-height:33px;text-transform:uppercase;font-size:33px;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;font-weight:bold;}
+#content .section h1 {margin:37px 0 30px 16px;padding:0;line-height:33px;text-transform:uppercase;font-size:33px;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;font-weight:bold;}
 #content.sectionTabs .section h1 {min-height:66px;}
 #content h1.special {margin-top:10px;margin-bottom:20px;}
 #content h1 span {text-transform:none;}
@@ -255,7 +255,7 @@ body .pagination li.prev span, body .pagination li.next span {display:block;widt
 /* TODO: IE odd even js */
 #content .section .accordion li .item table tbody tr:nth-child(2n + 2) td, #content .section .accordion li .item table tbody tr:nth-child(2n + 2):hover td, #content .section .accordion li .item table tbody tr:nth-child(2n + 2) td.selected, #content .section .accordion li .item table tbody tr td.selected {background-color:#f6f6f6;}
 #content .section .accordion li .text table tbody tr:nth-child(2n + 2) td {background-color:transparent;}
-#content .section .accordion li .item table tbody tr td.amount {padding-right:60px;text-align:right;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;font-size:18px;}
+#content .section .accordion li .item table tbody tr td.amount {padding-right:60px;text-align:right;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;font-size:18px;}
 
 #content .section .accordion li .item table.mainCharges tbody tr td {padding:15px 20px;}
 /* TODO: IE odd even js */
@@ -386,7 +386,7 @@ div.fancybox-inner .gallery {padding-bottom:0;}
 .gallery ul.thumbs li a em {display:none;}
 .gallery ul.thumbs li.active a {cursor:default;}
 .gallery ul.thumbs li.active a em {position:absolute;top:0;left:0;width:60px;height:59px;background:url('../_img/_layout/thumb_layer.png') no-repeat 0 0;display:block;}
-.infoBox.gallery h2 {color:#323232;font-family:PkoBpRegular,Tahoma, Helvetica,Geneva;font-size:16px;}
+.infoBox.gallery h2 {color:#323232;font-family:johndoeRegular,Tahoma, Helvetica,Geneva;font-size:16px;}
 .infoBox.gallery ul.items li h2.remove-date {margin-bottom:20px;}
 .infoBox.gallery ul.items, .infoBox.gallery ul.thumbs {padding:0 20px;}
 .infoBox.gallery ul.items {padding-top:10px;padding-bottom:10px;position: relative;}
@@ -433,7 +433,7 @@ div.fancybox-inner .gallery {padding-bottom:0;}
 }
 .infoBox.infoBoxCaptcha .ccform h2 {
 	font-weight: normal !important;
-	font: 14px/16px PkoBpRegular, Tahoma, Helvetica, Geneva !important;
+	font: 14px/16px johndoeRegular, Tahoma, Helvetica, Geneva !important;
 	color: #1b1b1b !important;
 	padding-bottom: 14px !important;
 	margin: 0 !important;
@@ -443,7 +443,7 @@ div.fancybox-inner .gallery {padding-bottom:0;}
 	line-height: 13px !important;
 	padding: 0 !important;
 	color: #1b1b1b !important;
-	font-family: Tahoma, Helvetica, PkoBpRegular, Geneva !important;
+	font-family: Tahoma, Helvetica, johndoeRegular, Geneva !important;
 }
 
 .infoBox.compare {background: #fff;}
@@ -453,7 +453,7 @@ div.fancybox-inner .gallery {padding-bottom:0;}
 #content #right_panel .text.banner {margin:0;padding:0 0 20px 20px;}
 #content .sidebar .text.contactMore {padding-right:10px;}
 #content .sidebar .text.contactMore h3 {padding-bottom:20px;color:#7a7a7a;}
-#content .sidebar .text.contactMore .number {color:#000000;padding-bottom:2px;font-family: PkoBpRegular,Tahoma,Helvetica,Geneva;font-size: 18px;}
+#content .sidebar .text.contactMore .number {color:#000000;padding-bottom:2px;font-family: johndoeRegular,Tahoma,Helvetica,Geneva;font-size: 18px;}
 #content .sidebar .text.visual.hr {border-bottom:1px solid #ededed;border-top:0;}
 #content .sidebar .text:first-child {margin-top:10px;}
 
@@ -461,8 +461,8 @@ div.fancybox-inner .gallery {padding-bottom:0;}
 #content .sidebar .text span.number {display:inline-block;width:235px;vertical-align:top;}
 #content .sidebar .text.contact small.label, #content .sidebar .text .contact small.label {display:inline-block;width:50px;}
 
-#content .sidebar .text.visual h2 {color:#000;font-size:20px;line-height:20px;font-weight:normal;font-family:PkoBpLight, Tahoma, Helvetica, Geneva;}
-#content .sidebar .text.visual h2 strong {text-transform:uppercase;font-size:36px;font-weight:bold;line-height:30px;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;}
+#content .sidebar .text.visual h2 {color:#000;font-size:20px;line-height:20px;font-weight:normal;font-family:johndoeLight, Tahoma, Helvetica, Geneva;}
+#content .sidebar .text.visual h2 strong {text-transform:uppercase;font-size:36px;font-weight:bold;line-height:30px;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;}
 #content .sidebar .text.visual .img {margin-bottom:20px;}
 #content .sidebar .text.visual .img.stickOut65 {margin-top:-65px;padding-bottom:10px;}
 
@@ -554,7 +554,7 @@ transition:color .2s;
 #content .section .tableList {margin-left:0 !important;}
 #content .section .tableList li {list-style:none;padding:0 !important;background:none !important;line-height:20px !important;}
 #content .section .tableList li.first {margin-bottom:44px;}
-#content .section .tableList li strong {display:inline-block;width:151px;font-weight:normal;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;font-size:16px;color:#8e8e8e;}
+#content .section .tableList li strong {display:inline-block;width:151px;font-weight:normal;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;font-size:16px;color:#8e8e8e;}
 #content .section .tableList li.first strong {font-size:24px;color:#171717;}
 #content .section .tableList li span {fong-family:Tahoma;font-size:11px;color:#4a4a4a;}
 
@@ -624,7 +624,7 @@ transition:color .2s;
 #bar.withGroups {height:250px;}
 #bar .bar {width:967px;height:162px;position:absolute;top:-3px;left:-3px;background:url(../_img/_layout/sprite.png) no-repeat -194px -928px;}
 #bar.withGroups .bar {height:247px;background:url(../_img/_layout/barContentGroup.png) no-repeat -5px -5px;}
-#bar .bar h1 {float:left;width:160px;padding:16px 12px 0 23px;line-height:30px;letter-spacing:-1px;color:#000;text-transform:none;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;font-weight:bold;font-size:26px;}
+#bar .bar h1 {float:left;width:160px;padding:16px 12px 0 23px;line-height:30px;letter-spacing:-1px;color:#000;text-transform:none;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;font-weight:bold;font-size:26px;}
 #bar.small .bar h1 {padding-top: 12px;}
 #bar .bar h1 strong {}
 #bar .bar h1 small {display:block;padding-top:5px;color:#000;font-size:22px;line-height:24px;}
@@ -633,7 +633,7 @@ transition:color .2s;
 #bar .barTab h1 {font-size:26px;line-height:28px;text-transform: none;}
 #bar .barTab h1 strong {font-size:26px;line-height:28px;}
 #bar .barTab .buttonTabs {width:773px;height:41px;margin-left:-2px;}
-#bar .barTab .buttonTabs li {outline:none;cursor:pointer;float:left;width:175px;height:41px;padding-left:18px;line-height:39px;color:#999999;font-size:14px;font-family:PkoBpLight, Tahoma, Helvetica, Geneva;background:url(../_img/_layout/sprite.png) no-repeat -387px -129px;}
+#bar .barTab .buttonTabs li {outline:none;cursor:pointer;float:left;width:175px;height:41px;padding-left:18px;line-height:39px;color:#999999;font-size:14px;font-family:johndoeLight, Tahoma, Helvetica, Geneva;background:url(../_img/_layout/sprite.png) no-repeat -387px -129px;}
 #bar .barTab .buttonTabs li:first-child {width:174px;background-position:-387px -129px;}
 /* #bar.tabs5 .barTab .buttonTabs li {width:136px;}
 #bar.tabs5 .barTab .buttonTabs li:first-child {width:137px} */
@@ -650,7 +650,7 @@ transition:color .2s;
 #bar .barTab .buttonTabs.tab-5 li:first-child {width:137px}
 #bar .barTab .buttonTabs.tab-6 li {width:110px;}
 #bar .barTab .buttonTabs.tab-6 li:first-child {width:113px;}
-.bankomania #bar .barTab .buttonTabs.tab-6 li {letter-spacing: -1px;}
+.johndoe #bar .barTab .buttonTabs.tab-6 li {letter-spacing: -1px;}
 #bar .barTab .buttonTabs.tab-7 li {width:92px;}
 #bar .barTab .buttonTabs.tab-7 li:first-child {width:93px;}
 
@@ -692,13 +692,13 @@ transition:color .2s;
 #content .item li.box.highlighted .product .box-h3 {width:266px; display:block; float:left; margin-left:20px; overflow:hidden; padding:0;}
 #content .item li.box.highlighted .product .ensureWrapped {width:266px; display:block; float:left;margin-left:20px;}
 #content .item li.box.highlighted .product .more {width:266px; display:block; float:left;margin-left:20px;}
-#content .item li.box.bankomania-box {width: 305px;}
-#content .item li.box.bankomania-box .product {border: none; width: 305px;}
-#content .item li.box.bankomania-box .date {padding-left: 0;}
-#content .item li.box.bankomania-box .image {display: block; width: 272px; height: 204px; border: 1px solid #ccc;}
-#content .item li.box.bankomania-box .image img {display: none;}
-#content .item li.box.bankomania-box .image .centeredThumb {background-repeat: no-repeat; background-position: 50% 50%; width: 100%; height: 100%; display: block;}
-#content .item .bankomania-clear {clear:both;height:20px;}
+#content .item li.box.johndoe-box {width: 305px;}
+#content .item li.box.johndoe-box .product {border: none; width: 305px;}
+#content .item li.box.johndoe-box .date {padding-left: 0;}
+#content .item li.box.johndoe-box .image {display: block; width: 272px; height: 204px; border: 1px solid #ccc;}
+#content .item li.box.johndoe-box .image img {display: none;}
+#content .item li.box.johndoe-box .image .centeredThumb {background-repeat: no-repeat; background-position: 50% 50%; width: 100%; height: 100%; display: block;}
+#content .item .johndoe-clear {clear:both;height:20px;}
 #adjacentProducts .ensureWrapped {max-height:145px;overflow:hidden;}
 
 #content .accordion {margin:0 0 30px 0;}
@@ -753,7 +753,7 @@ transition:color .2s;
 #content #groupStructure h2 a {color:#003472;font-size:24px;}
 
 #content .arrowLinks {margin: 0; padding-bottom: 10px;}
-#content .arrowLinks li {font-size: 14px; font-family: PkoBpRegular,Tahoma,Helvetica,Geneva; position: relative; border-top: 1px solid #e6e6e6; padding: 12px 0 12px 66px;}
+#content .arrowLinks li {font-size: 14px; font-family: johndoeRegular,Tahoma,Helvetica,Geneva; position: relative; border-top: 1px solid #e6e6e6; padding: 12px 0 12px 66px;}
 #content .arrowLinks li > span {width: 65px; display: block; position: absolute; left: 66px; top: 12px; color: #737374;}
 #content .arrowLinks li > a {display: block; padding-right: 50px;}
 #content .arrowLinks li > a em {background: url('../_img/_layout/sprite.png') no-repeat scroll -30px -624px transparent; position: absolute; top: 9px; right: 0; height: 28px; width: 29px;}
@@ -859,7 +859,7 @@ transition:color .2s;
 #content .bigVisual li.box .visual h3, #content .bigVisual li.box .visual p, #content .bigVisual li.box .text {z-index:1;position:relative !important;}
 
 #content .item.sitemap li.box {}
-#content .item.sitemap li.box h3 {margin:0 0 0 20px;padding:0 0 10px 0;text-transform:none;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;font-size:15px;position:relative;border-right:1px solid #dcdcdc;}
+#content .item.sitemap li.box h3 {margin:0 0 0 20px;padding:0 0 10px 0;text-transform:none;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;font-size:15px;position:relative;border-right:1px solid #dcdcdc;}
 #content .item.sitemap li.box > ul {padding:0 0 20px 2px;position:relative;min-height:170px;margin:0 0 20px 20px;border-right:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;}
 #content .item.sitemap li.box ul li ul {padding:10px 5px;}
 #content .item.sitemap li.box ul li li {padding:0 0 0 15px;font-size:100%;background:url(../_img/_layout/bg_blue_dot.png) no-repeat 0px 6px;}
@@ -898,7 +898,7 @@ transition:color .2s;
 #content .item li .people.analysts {min-height:120px;height:120px;}
 #content .item li .people.analysts small {height:auto;}
 
-#content #grupa-pko-banku-polskiego.item li .people, #content #pko-bp-group.item li .people {height:184px !important;}
+#content #grupa-johndoe-banku-polskiego.item li .people, #content #johndoe-bp-group.item li .people {height:184px !important;}
 #content #centrum-prasowe.item li .people {height:150px !important;}
 #content #centrum-prasowe.item li .people p {padding-right:10px;}
 #content #centrum-prasowe.item li .people-inner {float:left;width:190px;}
@@ -906,12 +906,12 @@ transition:color .2s;
 
 
 #content .item li.box > div.categories {min-height:120px;height:120px;}
-#content .item li.box > div.categories h3 {padding-top:10px;color:#2b2a2a;text-transform:none;font-size:18px;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;}
+#content .item li.box > div.categories h3 {padding-top:10px;color:#2b2a2a;text-transform:none;font-size:18px;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;}
 
 #content .item li .visual {min-height:166px;}
-#content .item li .visual h3 {position:relative;z-index:10;padding:4px 0 0 0;line-height:23px;text-transform:uppercase;letter-spacing: -0.053em;color:#000;font-weight:normal;font-size:16px;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;}
+#content .item li .visual h3 {position:relative;z-index:10;padding:4px 0 0 0;line-height:23px;text-transform:uppercase;letter-spacing: -0.053em;color:#000;font-weight:normal;font-size:16px;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;}
 #content .item li .visual h3 strong {font-size:36px;}
-#content .item li .visual p {position:relative;z-index:10;margin-right:20px;padding:0 0 15px 0;line-height:17px;color:#7a7a7a;font-size:15px;font-family:PkoBpLight, Tahoma, Helvetica, Geneva;letter-spacing:-0.025em;}
+#content .item li .visual p {position:relative;z-index:10;margin-right:20px;padding:0 0 15px 0;line-height:17px;color:#7a7a7a;font-size:15px;font-family:johndoeLight, Tahoma, Helvetica, Geneva;letter-spacing:-0.025em;}
 #content .item li .visual .img {margin:0;position:absolute;bottom:1px;right:1px;z-index:0;}
 #content .item li .visual .cta {position:absolute;bottom:20px;left:0;}
 #content .item li .visual .whiteBtn {position:absolute;bottom:12px;right:12px;}
@@ -953,7 +953,7 @@ transition:color .2s;
 #content .section .map h2 {margin-left:0;margin-bottom:35px;color:#8b8b8b;font-size:14px;}
 
 #content .section .tabs {height:60px;margin:0 20px 30px 0;border-bottom:1px solid #e6e6e6;}
-#content .section .tabs li {position:relative;float:left;width:151px;height:40px;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;border-left:1px solid #e6e6e6;}
+#content .section .tabs li {position:relative;float:left;width:151px;height:40px;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;border-left:1px solid #e6e6e6;}
 #content .section .tabs li:first-child {border-left:0;}
 #content .section .tabs li:first-child a {padding-left:20px;}
 #content .section .tabs.tabsWidth19 li:first-child a {padding-left:15px;}
@@ -973,8 +973,8 @@ transition:color .2s;
 #content .text h3 a {display:inline;}
 
 #content .section .text.timeline ul {width:530px;list-style:none;}
-#content .section .text.timeline h2 {margin:0 0 10px 0;padding:0;color:#000;line-height:110%;font-weight:bold;font-size:140%;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;}
-#content .section .text.timeline strong {display:block;margin-bottom:5px;color:#666666;font-size:18px;font-weight:normal;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;}
+#content .section .text.timeline h2 {margin:0 0 10px 0;padding:0;color:#000;line-height:110%;font-weight:bold;font-size:140%;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;}
+#content .section .text.timeline strong {display:block;margin-bottom:5px;color:#666666;font-size:18px;font-weight:normal;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;}
 #content .section .text.timeline li {margin:0 0 30px 0;padding:0;color:#4c4c4c;line-height:120%;background:none;}
 
 #content .process {margin:0;overflow:hidden;padding:0 20px 20px;}
@@ -1005,7 +1005,7 @@ transition:color .2s;
 #content .thead .table ul.fees li.column {border-top:none;}
 #content .table ul.fees li.column {width:255px;float:left;margin:0;border-top:1px solid #dcdcdc;background-color:#fff;}
 #content .table ul.fees li.column:first-child {margin-left:0;padding-bottom:38px;width:195px;position:absolute;left:0;top:0;}
-#content .table ul.fees li.column .amount {text-align:center;line-height:146px;color:#303030;font-size:24px;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;}
+#content .table ul.fees li.column .amount {text-align:center;line-height:146px;color:#303030;font-size:24px;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;}
 #content .table ul.fees li.column .ceilOverflay {background:#fff;height:186px;position:absolute;width:195px;z-index:10;}
 #content .table ul.fees li.column .label ul.row > li {list-style-type:disc;padding-left:5px;color:#004387;}
 #content .table ul.fees li.column .label ul.row > li p {color:#303030;}
@@ -1133,8 +1133,8 @@ transition:color .2s;
 #content .base .whiteBtn {margin-left:-1px;}
 #content .base ul li.branch a.whiteBtn {width:100px;text-align:center;}
 #content .base ul li.type_radiobox, #content .base ul li.type_checkbox, .infoBox .base ul li.type_checkbox  {margin-bottom:2px;padding:10px 0;}
-#content  .iPKOQuestionContactForm .base ul li.type_radiobox, #content .base ul li.type_checkbox, .infoBox .base ul li.type_checkbox  {padding:0}
-#content  .iPKOOpinionContactForm .base ul li.type_radiobox, #content .base ul li.type_checkbox, .infoBox .base ul li.type_checkbox  {margin-bottom: 7px;padding:0;}
+#content  .ijohndoeQuestionContactForm .base ul li.type_radiobox, #content .base ul li.type_checkbox, .infoBox .base ul li.type_checkbox  {padding:0}
+#content  .ijohndoeOpinionContactForm .base ul li.type_radiobox, #content .base ul li.type_checkbox, .infoBox .base ul li.type_checkbox  {margin-bottom: 7px;padding:0;}
 #content .base label, .infoBox .base label {float:left;width:60px;line-height:22px;margin:0;padding-right:12px;text-align:right;color:#9c9b9b;direction:rtl;}
 #content .base li.type_text.id_services.services {padding-top:10px;}
 #content .base li.type_text.id_services.services > label {float:none;margin:20px 0 0 30px;}
@@ -1161,7 +1161,7 @@ transition:color .2s;
 .base ul li .errorTooltip {left:190px;top:-10px;}
 .base ul li ul li .errorTooltip {left: 116px;}
 .base ul li.form_name, .base ul li.id_next, .base ul li.id_reset_key {display:none;}
-#content .base ul li h3 {padding-top:10px;margin:0;padding:0 0 10px 0;font-size:140%;line-height:110%;color:#000000;text-transform:none;font-weight:normal;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;}
+#content .base ul li h3 {padding-top:10px;margin:0;padding:0 0 10px 0;font-size:140%;line-height:110%;color:#000000;text-transform:none;font-weight:normal;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;}
 #content .base ul li span, #searchBoxes li.box.error .errorTooltip span {float:left;line-height:19px;}
 #content .base ul li span.prefix {line-height:23px;width:25px;}
 #content .base ul li span.tooltip-button-text {line-height:normal;float:none;}
@@ -1249,7 +1249,7 @@ div.text table.tableimageleft tr td:first-child {padding:0 10px 0 20px;}
 
 div.text .largeText tr td:first-child {line-height:14px !important;}
 
-div.text .largeText td {color:#303030;font-size:16px;font-family:PkoBpRegular,Tahoma, Helvetica,Geneva;text-align:center; line-height: 20px !important;}
+div.text .largeText td {color:#303030;font-size:16px;font-family:johndoeRegular,Tahoma, Helvetica,Geneva;text-align:center; line-height: 20px !important;}
 div.text .largeText td span {color:#999;font-size:11px; line-height: 11px !important;}
 div.text .largeText td small {color:#4A4A4A !important;display:block;font-size:11px;font-family:Tahoma, Helvetica,Geneva; line-height: 11px !important;}
 
@@ -1313,13 +1313,13 @@ label.checked {font-weight:bold;}
 #content .barContent > li.box-3 input[type=text] {width:184px !important;}
 #content .barContent > li.box-1 {width:728px;border:0;}
 #content .barContent > li:first-child {border-left:0;padding-left:0;}
-#content .barContent > li label {float:right;display:none;padding-right:5px;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;font-size:20px;color:#000;line-height:20px;}
+#content .barContent > li label {float:right;display:none;padding-right:5px;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;font-size:20px;color:#000;line-height:20px;}
 #content #bar.withGroups .barContent > li label.showLabel {float:left;display:block;padding-right:5px;font-family:Tahoma, Helvetica, Geneva;font-size:11px;color:#000;line-height:20px;padding-left:20px;}
 #content #bar.withGroups .barContent > li label.showLabel.first {padding-left:0;}
 #content #bar.withGroups .barContent > li label.showLabel .customCheckbox {top:5px;}
 #content #bar.withGroups .barContent > li label.showLabel input.customCheckbox-hide {position:absolute;}
 #content .barContent > li label span {position:relative;top:1px;}
-#content .barContent > li input.text {height:auto;padding:0;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;font-size:20px;text-align:right;color:#000;border:0;background:none !important;
+#content .barContent > li input.text {height:auto;padding:0;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;font-size:20px;text-align:right;color:#000;border:0;background:none !important;
     -moz-box-shadow:none;
     -webkit-box-shadow:none;
     box-shadow:none;
@@ -1334,9 +1334,9 @@ label.checked {font-weight:bold;}
 #content .barTab .barContent li {height:80px;}
 #content .barTab .barContent li input[type=text] {width:330px;}
 #content .barContent > li h2 {text-align:left;}
-#content .barContent > li h3 {margin:7px 0 17px 0;text-transform:none;text-align:left;color:#000;line-height:18px;font-size:18px;font-weight:normal;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;}
+#content .barContent > li h3 {margin:7px 0 17px 0;text-transform:none;text-align:left;color:#000;line-height:18px;font-size:18px;font-weight:normal;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;}
 #content .barContent > li h3 small {color:#000;font-size:14px;}
-#content .barContent > li h4 {margin:0;padding:0 0 18px 0;color:#999;font-size:12px;line-height:17px;font-weight:normal;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;text-align:left;}
+#content .barContent > li h4 {margin:0;padding:0 0 18px 0;color:#999;font-size:12px;line-height:17px;font-weight:normal;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;text-align:left;}
 #content .barContent > li.two-dates h4 {padding:0 0 6px 0;}
 
 .sliderContainer {position:relative;z-index:0;top:5px;height:24px;margin-left:-5px;margin-bottom:10px;-webkit-tap-highlight-color: rgba(0,0,0,0);}
@@ -1354,7 +1354,7 @@ label.checked {font-weight:bold;}
 .sliderHandle:hover {background-position:-25px -574px;}
 .sliderTooltip {position:absolute;top:32px;width:400px;margin-left:13px;left:-200px;text-align:center;height:0;cursor:default;}
 .sliderTooltip .triangle {display:inline-block;height:6px;width:11px;background:url(../_img/_layout/sprite.png) no-repeat -530px -1280px !important;position:absolute;z-index:20;left:194px;top:-9px;}
-.sliderTooltip .tooltipLeft {display:inline-block;height:20px;background:url(../_img/_layout/sprite.png) no-repeat -389px -1258px !important;font:11px/18px PkoBpRegular;color:#343434;padding-left:9px;position:relative;top:-5px;z-index:19;margin-right:12px;}
+.sliderTooltip .tooltipLeft {display:inline-block;height:20px;background:url(../_img/_layout/sprite.png) no-repeat -389px -1258px !important;font:11px/18px johndoeRegular;color:#343434;padding-left:9px;position:relative;top:-5px;z-index:19;margin-right:12px;}
 .sliderTooltip .tooltipLeft .tooltipRight {display:block;width:12px;height:20px;background:url(../_img/_layout/sprite.png) no-repeat -533px -1258px !important;position:absolute;right:-12px;top:0;}
 .sliderTarget {position:absolute;width:24px;height:22px;z-index:2;background:url(../_img/_layout/sprite.png) no-repeat 0 -598px !important;cursor:pointer;}
 .progress_false .sliderTarget {background-position: 0 -598px !important;}
@@ -1362,7 +1362,7 @@ label.checked {font-weight:bold;}
 .sliderTarget0 {background-position: -49px -598px !important;}
 .sliderTarget:hover {background-position:-25px -598px !important;z-index:2;}
 .activePrev, .active {background-position:-25px -598px !important;}
-.sliderTarget .sliderLabel {position:relative;top:30px;text-align:center;color:#999999;font-size:11px;line-height:13px;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;
+.sliderTarget .sliderLabel {position:relative;top:30px;text-align:center;color:#999999;font-size:11px;line-height:13px;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
@@ -1548,7 +1548,7 @@ label.checked {font-weight:bold;}
 .ui-datepicker-calendar tr td.ui-state-disabled {border-left:0;background:none;}
 .ui-datepicker-calendar tr td.ui-state-disabled, .ui-state-disabled {opacity:0.2;filter: alpha(opacity=20);}
 .ui-datepicker-header .ui-corner-all {display:block;}
-.ui-datepicker-header h2 {margin:0 0 20px 0;z-index:1000;color:#1b1b1b;font-weight:normal;font-size:15px;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;}
+.ui-datepicker-header h2 {margin:0 0 20px 0;z-index:1000;color:#1b1b1b;font-weight:normal;font-size:15px;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;}
 .ui-datepicker-header .ui-datepicker-prev span, .ui-datepicker-header .ui-datepicker-next span, .ui-datepicker-header .ui-datepicker-prevyear span, .ui-datepicker-header .ui-datepicker-nextyear span {display:none;}
 .ui-datepicker-header .ui-datepicker-prev, .ui-datepicker-header .ui-datepicker-prevyear {cursor:pointer;float:left;margin-left:8px;background: url("../_img/_layout/sprite.png") no-repeat -174px -428px;height: 15px;width: 15px;}
 .ui-datepicker-header .ui-datepicker-prev:hover,
@@ -1559,7 +1559,7 @@ label.checked {font-weight:bold;}
 .ui-datepicker-header .ui-datepicker-nextyear {background-position: -123px -428px;margin-right:30px;}
 .ui-datepicker-header .ui-datepicker-prevyear:hover, .ui-datepicker-header .ui-datepicker-prevyear:focus {background-position: -137px -448px;}
 .ui-datepicker-header .ui-datepicker-nextyear:hover, .ui-datepicker-header .ui-datepicker-nextyear:focus {background-position: -123px -448px;}
-.ui-datepicker .ui-datepicker-title {display:block;width:110px;margin:0 auto 16px auto;text-align:center;color:#000;font-size:12px;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;overflow:hidden;}
+.ui-datepicker .ui-datepicker-title {display:block;width:110px;margin:0 auto 16px auto;text-align:center;color:#000;font-size:12px;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;overflow:hidden;}
 .ui-datepicker .ui-datepicker-title select {float:left;display:none;position:relative;}
 #ui-datepicker-month .ui-datepicker-month {margin-right:21px;}
 .ui-datepicker .ui-datepicker-title label {float:left;margin-right:5px;line-height:23px;font-size:11px;color:#959595;}
@@ -1583,10 +1583,10 @@ label.checked {font-weight:bold;}
 #content .infoBox img, #content .infoBox .close {position:relative;top:-8px;right:10px;width:27px;height:26px;background:url(../_img/_layout/sprite.png) no-repeat 0 -698px;}
 #content .infoBox img:hover, #content .infoBox .close:hover {background-position:0 -725px;cursor:pointer;}
 #content .infoBox .close {display:block;position:absolute;top:10px;right:10px;}
-.infoBox h2 {margin:0;padding:10px 44px 15px 20px;color:#1b1b1b;text-transform:none;font-weight:normal;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;font-size:18px;}
-.infoBox h3 {padding:10px 44px 15px 20px;color:#1b1b1b;text-transform:none;font-weight:normal;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;font-size:16px;border-bottom:1px solid #dedede;}
-.infoBoxSimple h3 {margin-bottom:3px;padding:0 15px 0 15px;color:#1b1b1b;text-transform:none;font-weight:normal;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;font-size:14px;border:0;}
-.infoBoxSimple h4 {margin:0;padding:0 15px;color:#999999;text-transform:none;font-weight:normal;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;font-size:12px;}
+.infoBox h2 {margin:0;padding:10px 44px 15px 20px;color:#1b1b1b;text-transform:none;font-weight:normal;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;font-size:18px;}
+.infoBox h3 {padding:10px 44px 15px 20px;color:#1b1b1b;text-transform:none;font-weight:normal;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;font-size:16px;border-bottom:1px solid #dedede;}
+.infoBoxSimple h3 {margin-bottom:3px;padding:0 15px 0 15px;color:#1b1b1b;text-transform:none;font-weight:normal;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;font-size:14px;border:0;}
+.infoBoxSimple h4 {margin:0;padding:0 15px;color:#999999;text-transform:none;font-weight:normal;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;font-size:12px;}
 .infoBox address {display:block;padding:0 15px;text-align:center;color:#2e2e2e;font-style:normal;}
 .infoBox address p {padding:0 0 20px 0;text-align:left;}
 .infoBox address small {color:#aaaaaa;font-size: 11px;}
@@ -1612,13 +1612,13 @@ label.checked {font-weight:bold;}
 
 .tooltip {padding:10px 20px;}
 .fancybox-inner .tooltip {overflow:hidden;}
-.tooltip p {font-size:14px;font-family:PkoBpRegular,Tahoma,Helvetica,Geneva;}
+.tooltip p {font-size:14px;font-family:johndoeRegular,Tahoma,Helvetica,Geneva;}
 .tooltip .whiteBtn {margin-top:20px;text-transform:uppercase;}
 .fancybox-inner em.triangle {display: block; position: absolute; bottom: -26px; left: 16px; width: 15px; height: 12px; background: url('../_img/_layout/sprite.png') no-repeat -8px -1008px;}
 .fancybox-outer .fancybox-inner {overflow: visible !important;}
 
 #content .mapLegend {width:980px;overflow:hidden;}
-#content .mapLegend li {width:305px;height:73px;display:block;position:relative;float:left;font-size:14px;font-family:PkoBpRegular,Tahoma,Helvetica,Geneva;line-height:15px;border-right:1px solid #dedede;border-bottom:1px solid #dedede;margin:0 20px 12px 0;}
+#content .mapLegend li {width:305px;height:73px;display:block;position:relative;float:left;font-size:14px;font-family:johndoeRegular,Tahoma,Helvetica,Geneva;line-height:15px;border-right:1px solid #dedede;border-bottom:1px solid #dedede;margin:0 20px 12px 0;}
 #content .mapLegend li .customCheckbox {float:left;}
 #content .mapLegend li label {display:block;color:#999;padding:0;margin:16px 0 4px;line-height:18px;cursor:pointer;-moz-transition:color 0.3s ease 0s;}
 #content .mapLegend li label:hover {color:#333;}
@@ -1652,7 +1652,7 @@ label.checked {font-weight:bold;}
 #content .mapLocationsListContainer #poiLocations li.mobile_other em,
 #content .mapLocationsListContainer #poiLocations li.mobile_transport em {background-position:-234px 0;}
 #content .mapLocationsListContainer {position:relative;margin-top:27px;}
-#content .mapLocationsListContainer h2 {margin:0 20px;font-size:24px;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;clear:both;float:left;}
+#content .mapLocationsListContainer h2 {margin:0 20px;font-size:24px;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;clear:both;float:left;}
 #content .mapLegend .snippet .text {padding:5px;}
 
 #content #poiLocationsListContent {overflow:hidden;width:960px;position: relative;}
@@ -1678,8 +1678,8 @@ label.checked {font-weight:bold;}
 #content .calcBox {width:617px; margin-bottom: 80px;}
 #content .calcBox.small {height:227px;background:url(../_img/_layout/sprite.png) no-repeat -544px -1257px;}
 #content .calcBox.big {height:329px;background:url(../_img/_layout/sprite.png) no-repeat -544px -1493px;}
-#content .calcBox h2 {color:#1f1d1d;font:24px/28px PkoBpRegular, Tahoma, Helvetica, Geneva;text-transform:none;font-weight:bold;margin:0;padding:23px 20px 20px;}
-#content .calcBox h3 {color:#181818;font:15px/18px PkoBpRegular, Tahoma, Helvetica, Geneva;text-transform:none;margin:0;}
+#content .calcBox h2 {color:#1f1d1d;font:24px/28px johndoeRegular, Tahoma, Helvetica, Geneva;text-transform:none;font-weight:bold;margin:0;padding:23px 20px 20px;}
+#content .calcBox h3 {color:#181818;font:15px/18px johndoeRegular, Tahoma, Helvetica, Geneva;text-transform:none;margin:0;}
 #content .calcBox fieldset {padding:0 0 16px 19px;margin:0 5px 0 3px;border-bottom:1px solid #dcdcdc;}
 #content .calcBox fieldset + fieldset {border-top:1px solid #fff;}
 #content .calcBox fieldset.lastChild {padding-bottom:0;border-bottom:0;}
@@ -1687,16 +1687,16 @@ label.checked {font-weight:bold;}
 #content .calcBox fieldset input[type=text].slider, #content .calcBox fieldset .slider input[type=text] {width:69px;height:26px;padding-top:2px;padding-bottom:0;font-size:20px;font-weight:bold;text-align:right;color:#000;}
 #content .calcBox fieldset input[type=text].slider:disabled {color: graytext !important;}
 #content .calcBox fieldset input[type=text].slider::-ms-clear, #content .calcBox fieldset .slider input[type=text]::-ms-clear {display: none;}/*ie 10 bug*/
-#content .calcBox fieldset label.slider {color:#9b9b9b;font-size:14px;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva;}
+#content .calcBox fieldset label.slider {color:#9b9b9b;font-size:14px;font-family:johndoeRegular, Tahoma, Helvetica, Geneva;}
 #content .calcBox fieldset .slider input[type=text] {position:relative;top:-2px;margin:0 2px 0 5px;}
 #content .calcBox fieldset input[type=text].slider.blue, #content .calcBox fieldset .slider.blue input[type=text] {color:#01488c;}
 #content .calcBox fieldset input[type=text].slider:focus, #content .calcBox fieldset .slider input[type=text]:focus {color:#000;}
 #content .calcBox fieldset ul.foot li {padding-top:16px;}
-#content .calcBox fieldset ul.foot label {color:#181818;font:15px/26px PkoBpRegular, Tahoma, Helvetica, Geneva;display:inline-block;vertical-align:middle;width:450px;}
-#content .calcBox fieldset ul.foot .afterInput {color:#181818;font:15px/30px PkoBpRegular, Tahoma, Helvetica, Geneva;display:inline-block;vertical-align:middle;float:right;width:32px;margin-left:4px;}
+#content .calcBox fieldset ul.foot label {color:#181818;font:15px/26px johndoeRegular, Tahoma, Helvetica, Geneva;display:inline-block;vertical-align:middle;width:450px;}
+#content .calcBox fieldset ul.foot .afterInput {color:#181818;font:15px/30px johndoeRegular, Tahoma, Helvetica, Geneva;display:inline-block;vertical-align:middle;float:right;width:32px;margin-left:4px;}
 
 #content .calcBox .minmax h3 {margin-bottom:16px;}
-#content .calcBox .minmax .showMin, #content .calcBox .minmax .showMax {height:24px;font:15px/22px PkoBpRegular, Tahoma, Helvetica, Geneva;color:#181818;float:left;white-space:pre;}
+#content .calcBox .minmax .showMin, #content .calcBox .minmax .showMax {height:24px;font:15px/22px johndoeRegular, Tahoma, Helvetica, Geneva;color:#181818;float:left;white-space:pre;}
 #content .calcBox .minmax .showMin {padding-right:10px;}
 #content .calcBox .minmax .showMax {font-size:20px;}
 #content .calcBox .minmax .sliderContainer {float:left;width:446px;top:2px;}
@@ -1727,7 +1727,7 @@ label.checked {font-weight:bold;}
 #content .calcBox .calcTopWrapper {background:url(../_img/_layout/calc-top.png) no-repeat center top; margin-top: 5px;}
 #content .calcBox.miniratka .calcTopWrapper {margin-top: 0;}
 #content .calcBox .calcTopWrapper h2 {padding: 22px 21px 11px;}
-#content .calcBox .calcTopWrapper label.promo {color: #171717; font-family: PkoBpRegular; font-size: 18px; font-weight: bold; line-height: 18px;}
+#content .calcBox .calcTopWrapper label.promo {color: #171717; font-family: johndoeRegular; font-size: 18px; font-weight: bold; line-height: 18px;}
 #content .calcBox .calcTopWrapper label.promo .customCheckbox {margin-right: 0; position: relative; top: 3px;}
 #content .calcBox .calcTopWrapper label.promo span {color: #808080; font-size: 14px; font-weight: normal;}
 #content .calcBox .calcTopWrapper fieldset {padding-left: 20px;}
@@ -1751,7 +1751,7 @@ label.checked {font-weight:bold;}
 #content .calcBox .calcSummary .accordion h2 a {font-size: 11px; line-height: 18px; width: 158px; color: #4c4c4c}
 #content .calcBox .calcSummary .accordion h2 a em {margin-top: -5px;}
 #content .calcBox .calcSummary .accordion li .text {width: 570px; padding: 0;}
-#content .calcBox .calcSummary .accordion li .text .calcLegend {margin: 0; padding: 0; font-family: PkoBpRegular; color: #171717;}
+#content .calcBox .calcSummary .accordion li .text .calcLegend {margin: 0; padding: 0; font-family: johndoeRegular; color: #171717;}
 #content .calcBox .calcSummary .accordion li .text .calcLegend li {background: none; font-size: 15px; line-height: 31px; padding: 0;}
 #content .calcBox .calcSummary .accordion li .text .calcLegend li span {display: inline-block; width: 202px;}
 #content .calcBox .calcSummary .accordion li .text .calcLegend li span.long {width: 330px;}
@@ -1803,9 +1803,9 @@ label.checked {font-weight:bold;}
 #content .srCountTable .srCountTableDataRow .col4,
 #content .srCountTable .srCountTableSumRow .col4 { text-align: center; }
 
-#content .srCountTable th { color:#9b9b9b; font-size:14px; font-family:PkoBpRegular, Tahoma, Helvetica, Geneva; line-height:20px;}
-#content .srCountTableSumRow td { line-height: 20px;font-size:14px;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva; }
-#content .srCountTableSumRow td.col1 { color:#9b9b9b;font-size:14px;font-family:PkoBpRegular, Tahoma, Helvetica, Geneva; line-height:20px; }
+#content .srCountTable th { color:#9b9b9b; font-size:14px; font-family:johndoeRegular, Tahoma, Helvetica, Geneva; line-height:20px;}
+#content .srCountTableSumRow td { line-height: 20px;font-size:14px;font-family:johndoeRegular, Tahoma, Helvetica, Geneva; }
+#content .srCountTableSumRow td.col1 { color:#9b9b9b;font-size:14px;font-family:johndoeRegular, Tahoma, Helvetica, Geneva; line-height:20px; }
 #content .srCountTable tr.odd    { background-color: #e9e9e9; }
 #content .srCountTableSumRow td  { font-weight: bold; }
 #content .sectionCalculations span.bold { font-weight: bold; float: right; padding-right:30px; }
@@ -1903,7 +1903,7 @@ label.checked {font-weight:bold;}
 }
 /*edoradca >*/
 #mortgageCalc.calcBox .calcSummary .mortgage-table thead {
-    font-family: PkoBpRegular, Tahoma, Helvetica, Geneva;
+    font-family: johndoeRegular, Tahoma, Helvetica, Geneva;
 }
 #mortgageCalc.calcBox .calcSummary .mortgage-table th,
 #mortgageCalc.calcBox .calcSummary .mortgage-table td {
@@ -2017,7 +2017,7 @@ label.checked {font-weight:bold;}
         white-space: nowrap;
         font-weight: normal;
         font-size: 11px;
-        font-family: Tahoma, Helvetica, PkoBpRegular, Geneva;
+        font-family: Tahoma, Helvetica, johndoeRegular, Geneva;
     }
     .creditOptions .mortgage-info-text {
         bottom: 16px;
@@ -2140,7 +2140,7 @@ ul.iko-search-res .customCheckbox {float: left;}
 #content #contactForm .base ul li textarea, #content #contactForm .base ul li div.textarea {width:180px;}
 
 .errorTooltip {position:absolute;top:0;left:0;height:0;white-space:nowrap;z-index:800;}
-.errorTooltip .container {background:#fac7c9;margin:0 12px 0 10px;height:28px;background: url("../_img/_layout/sprite.png") no-repeat -15px -1824px;font:11px/19px PkoBpRegular, Tahoma, Helvetica, Geneva;color:#ee2e36;display:inline-block;position:relative;}
+.errorTooltip .container {background:#fac7c9;margin:0 12px 0 10px;height:28px;background: url("../_img/_layout/sprite.png") no-repeat -15px -1824px;font:11px/19px johndoeRegular, Tahoma, Helvetica, Geneva;color:#ee2e36;display:inline-block;position:relative;}
 .errorTooltip .content {display:block;}
 .errorTooltip .leftClose {width:10px;height:22px;position:absolute;top:0;left:-10px;background: url("../_img/_layout/sprite.png") no-repeat -8px -1824px;}
 .errorTooltip .rightClose {width:12px;height:22px;position:absolute;top:0;right:-12px;background: url("../_img/_layout/sprite.png") no-repeat -1149px -1824px;}
@@ -2155,7 +2155,7 @@ ul.iko-search-res .customCheckbox {float: left;}
 .lt-ie8 .errorTooltip.center .triangle {bottom:1px;}
 
 .divisionList {padding:0 0 20px 0;}
-.divisionList li {padding:15px 10px 15px 20px;font:11px PkoBpRegular, Tahoma, Helvetica, Geneva;
+.divisionList li {padding:15px 10px 15px 20px;font:11px johndoeRegular, Tahoma, Helvetica, Geneva;
 	background-position: 0 100%;
     background-repeat: repeat-x;
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAH0CAIAAABzX9DAAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkJENjg5Qzk4QkM0QzExRTE5N0ZCREE2RjU1QjRGRTI0IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkJENjg5Qzk5QkM0QzExRTE5N0ZCREE2RjU1QjRGRTI0Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QkQ2ODlDOTZCQzRDMTFFMTk3RkJEQTZGNTVCNEZFMjQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QkQ2ODlDOTdCQzRDMTFFMTk3RkJEQTZGNTVCNEZFMjQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5ldBeIAAAAKUlEQVR42mL4//8/EwMDwygexaN4FI/iUTzkMHodRk0+Lc2mgVsAAgwAnJQ8rgyb0lwAAAAASUVORK5CYII=");
@@ -2168,15 +2168,15 @@ ul.iko-search-res .customCheckbox {float: left;}
 .divisionList li small {font-size:11px;color:#b7b7b7;}
 .divisionList li small.notes {color:#ee2e36; display: block;margin-top:2px;}
 .divisionList li a.whiteBtn {float:right;margin-top:3px;}
-.innerPad .findDivision {font: 18px PkoBpRegular; color: #1b1b1b; padding: 19px 18px 18px;}
+.innerPad .findDivision {font: 18px johndoeRegular; color: #1b1b1b; padding: 19px 18px 18px;}
 .innerPad #searchBoxes {padding-left: 20px; height: 125px; border-bottom: 1px solid #dedede;}
 .innerPad .box {width: 230px; height: 52px; float: left; position: relative;}
 .innerPad .box label {font-size: 11px; line-height:12px; color: #959595; display: block; margin: 0 0 8px 1px;}
 .innerPad .box input {width:180px;}
 
 .infoBox .fancybox-inner .ccform {padding:20px 30px;}
-.ccform h2 {font:30px PkoBpRegular, Tahoma, Helvetica, Geneva !important;font-weight:normal !important;color:#000 !important;padding:0 !important;margin:0 0 30px !important;}
-.ccform p {font:18px PkoBpRegular, Tahoma, Helvetica, Geneva !important;color:#8B8B8B !important;padding-right:15px !important;}
+.ccform h2 {font:30px johndoeRegular, Tahoma, Helvetica, Geneva !important;font-weight:normal !important;color:#000 !important;padding:0 !important;margin:0 0 30px !important;}
+.ccform p {font:18px johndoeRegular, Tahoma, Helvetica, Geneva !important;color:#8B8B8B !important;padding-right:15px !important;}
 
 form#ccform, form#newsletterForm, form#layerForm {position:relative;z-index:20;}
 .accordionrates .item table th {color:#939393;font-weight:normal;}
@@ -2209,15 +2209,15 @@ form #ajaxOverflow {height:101%;}
 #content .cardBilling {width:575px;height:398px;padding:24px 22px 10px;background:url('../_img/_layout/box-cards-bg.png') no-repeat 0 0;padding-top:79px;position:relative;}
 #content .text .cardBilling {margin-left:-24px;}
 #content .section .cardBilling h2, #content .section .accordion .cardBilling h2 {padding:0;position:absolute;top:24px;left:22px;}
-#content .cardBilling p.legend {padding-right:15px;font-size:13px;font-family:PkoBpRegular;text-align:center;}
+#content .cardBilling p.legend {padding-right:15px;font-size:13px;font-family:johndoeRegular;text-align:center;}
 #content .cardBilling .sliderBox {width:100%;height:122px;margin:0 0 0 -10px;padding:0 1px 0 10px;overflow:hidden;}
 #content .cardBilling .info, #content .section .text .cardBilling .info {padding:20px 0 0;overflow:hidden; margin: 0;}
 #content .cardBilling .info li {display:none; padding: 0 !important;}
 #content .cardBilling .info li.active {display:block;}
-#content .cardBilling .info li .date {width:39px;height:40px;display:block;font-family:PkoBpRegular;font-size:22px;font-weight:bold;line-height:50px;text-align:center;background:url('../_img/_layout/date.png') no-repeat 0 0;float:left;margin-right:18px;}
+#content .cardBilling .info li .date {width:39px;height:40px;display:block;font-family:johndoeRegular;font-size:22px;font-weight:bold;line-height:50px;text-align:center;background:url('../_img/_layout/date.png') no-repeat 0 0;float:left;margin-right:18px;}
 #content .cardBilling .info li h3 {float:left;font-size:17px !important;padding:0;margin:5px 0 8px 0;color:#4C4C4C;text-transform:none;font-weight:bold;}
 #content .cardBilling .info li p {float:left;font-size:14px !important;margin:0;padding:0;line-height:17px;}
-#content .cardBilling .info li h3, #content .cardBilling .info li p {width:516px;font-family:PkoBpRegular;}
+#content .cardBilling .info li h3, #content .cardBilling .info li p {width:516px;font-family:johndoeRegular;}
 #content .cardBilling .sliderContainer {height:28px;}
 #content .cardBilling .sliderContainer .sliderHandle {top:1px;}
 #content .cardBilling .sliderContainer .sliderTarget {top:2px;}
@@ -2236,7 +2236,7 @@ form #ajaxOverflow {height:101%;}
 #content .cardBilling .sliderBox > ul > li {background-image: none;}
 #content .cardBilling .sliderBox > ul > li .sliderContainer {margin-bottom: 10px; margin-left: -5px;}
 #content .cardBilling .sliderBox .lastChild {left: 560px !important;}
-#content .cardBilling .topLabels {color: #656565; font: 12px/14px PkoBpRegular !important; padding: 12px 0 0; text-transform: uppercase;}
+#content .cardBilling .topLabels {color: #656565; font: 12px/14px johndoeRegular !important; padding: 12px 0 0; text-transform: uppercase;}
 #content .cardBilling .topLabels span:first-child {padding: 0 55px 0 25px;}
 
 #poi-pos {width:860px;margin:0 30px;padding:20px;overflow:hidden;}
@@ -2779,7 +2779,7 @@ a.tender_grid {top: 15px;}
 #TOiP .arrowLinks li > span {left:102px !important;width:80px;}
 #TOiP .arrowLinks li > span + a {padding-left:120px;}
 #right_panel
-.notFound {font-family: PkoBpRegular, Tahoma, Helvetica, Geneva; font-size: 17px; padding-left: 20px;}
+.notFound {font-family: johndoeRegular, Tahoma, Helvetica, Geneva; font-size: 17px; padding-left: 20px;}
 
 #left_panel {float:left;width:630px;margin:0 0 30px 0;border-right:1px solid #e6e6e6;}
 #right_panel {float:right;width:329px;margin:0 0 10px -1px;border-left:1px solid #e6e6e6;}
@@ -2821,20 +2821,20 @@ a.tender_grid {top: 15px;}
 .nasz-bank-block1 {padding-left: 30px !important;}
 .nasz-bank-block2 {padding-left: 20px !important;}
 
-/*charts TFI >>*/
+/*charts johndoe >>*/
 
 
-#tfiCharts #content .section h1 {
+#johndoeCharts #content .section h1 {
 	margin-top: 17px;
 }
 
-#tfiCharts .ui-datepicker {
+#johndoeCharts .ui-datepicker {
 	margin-left: 0;
 }
-.tfiCharts#content .section #legend {
+.johndoeCharts#content .section #legend {
 	display: none;
 }
-.tfiCharts#content .section .description {
+.johndoeCharts#content .section .description {
 	padding: 20px 0 40px 20px;
 	color: #999;
 	line-height: 16px;
@@ -2843,55 +2843,55 @@ a.tender_grid {top: 15px;}
 	border-bottom: 1px solid #e6e6e6;
 	width: 590px;
 }
-.tfiCharts#content .section .buttonClear {
+.johndoeCharts#content .section .buttonClear {
 	float: right;
 }
-.tfiCharts#content p#fontSize {
+.johndoeCharts#content p#fontSize {
 	display: none !important;
 }
-.tfiCharts#content .section .description .des1 {
+.johndoeCharts#content .section .description .des1 {
 	width: 400px;
 }
-.tfiCharts#content .section .description .des2 {
+.johndoeCharts#content .section .description .des2 {
 	width: 400px;
 }
-.tfiCharts#content .section .description .des2 .icon {
+.johndoeCharts#content .section .description .des2 .icon {
 
 }
-.tfiCharts#content .sidebar h2 {
+.johndoeCharts#content .sidebar h2 {
 	margin: 30px 30px 20px;
 }
 
 
-.tfiCharts#content #chartContainer {
+.johndoeCharts#content #chartContainer {
 	width: 610px;
 	height: 290px;
 	position: relative;
 	margin-top: 20px;
 }
-.tfiCharts#content #chart {
+.johndoeCharts#content #chart {
 	width: 610px;
 	height: 290px;
 }
-.tfiCharts#content #tooltip {
+.johndoeCharts#content #tooltip {
 	position: absolute;
 	z-index: 1000;
 	top: 0;
 	left: 0;
 	display: none;
 	font-size: 11px;
-	font-family: PkoBpRegular, Tahoma, Helvetica, Geneva;
+	font-family: johndoeRegular, Tahoma, Helvetica, Geneva;
 	font-weight: bold;
 	color: #049;
 	background: transparent url('../_img/_layout/sprite.png') -862px -2190px no-repeat;
 }
-.tfiCharts#content #tooltip .tooltip-container {
+.johndoeCharts#content #tooltip .tooltip-container {
 	padding: 9px 8px 7px 6px;
 	position: relative;
 	left: 2px;
 	background: transparent url('../_img/_layout/sprite.png') 100% -2190px no-repeat;
 }
-.tfiCharts#content #tooltip .tooltip-arrow {
+.johndoeCharts#content #tooltip .tooltip-arrow {
 	position: absolute;
 	width: 5px;
 	height: 5px;
@@ -2899,91 +2899,91 @@ a.tender_grid {top: 15px;}
 	left: 4px;
 	background: transparent url('../_img/_layout/sprite.png') -862px -2270px no-repeat;
 }
-.tfiCharts#content #tooltip table {
+.johndoeCharts#content #tooltip table {
 	border-collapse: collapse;
 }
-.tfiCharts#content #tooltip table td {
+.johndoeCharts#content #tooltip table td {
 	text-align: right;
 	white-space: nowrap;
 	min-width: 50px;
 	padding: 0;
 	line-height: 14px;
 }
-.tfiCharts#content #tooltip table td:first-child {
+.johndoeCharts#content #tooltip table td:first-child {
 	padding-right: 10px;
 	text-align: left;
 }
-.tfiCharts#content #tooltip table td.title:first-child {
+.johndoeCharts#content #tooltip table td.title:first-child {
 	padding-right: 0;
 }
-#tfiCharts #error-show h2 {
-	font:30px PkoBpRegular, Tahoma, Helvetica, Geneva !important;
+#johndoeCharts #error-show h2 {
+	font:30px johndoeRegular, Tahoma, Helvetica, Geneva !important;
 	font-weight: normal !important;
 	color: #000 !important;
 	padding: 0 !important;
 	margin: 0 0 30px !important;
 }
-#tfiCharts #error-show p {
-	font: 18px PkoBpRegular, Tahoma, Helvetica, Geneva !important;
+#johndoeCharts #error-show p {
+	font: 18px johndoeRegular, Tahoma, Helvetica, Geneva !important;
 	color: #8B8B8B !important;
 	padding-right: 15px !important;
 }
-.tfiCharts#content .section h2 {
+.johndoeCharts#content .section h2 {
 	font-size: 164% !important;
 	line-height: 120% !important;
 	margin-bottom: 20px;
 }
-.tfiCharts#content .section .labels {
+.johndoeCharts#content .section .labels {
 	padding-left: 20px;
 }
-.tfiCharts#content .section label {
+.johndoeCharts#content .section label {
 	margin-right: 15px;
 	color: #999;
 }
-.tfiCharts#content .section label .customRadio {
+.johndoeCharts#content .section label .customRadio {
 	vertical-align: middle;
 }
 
-.tfiCharts#content .section .dates {
+.johndoeCharts#content .section .dates {
 	clear: left;
 	padding-left: 20px;
 	padding-top: 16px;
 	height: 26px;
 }
 
-.tfiCharts#content .section .datesContainer {
+.johndoeCharts#content .section .datesContainer {
 	float: left;
 }
-.tfiCharts#content .section .dates input {
+.johndoeCharts#content .section .dates input {
 	width: 60px !important;
 	float: left;
 }
-.tfiCharts#content .section .dates .datesLabel {
+.johndoeCharts#content .section .dates .datesLabel {
 	float: left;
 	color: #999;
 	line-height: 24px;
 	display: block;
 	margin-right: 10px;
 }
-.tfiCharts#content .sidebar ul {
+.johndoeCharts#content .sidebar ul {
 	padding-left: 38px;
 }
-.tfiCharts#content .sidebar ul li {
+.johndoeCharts#content .sidebar ul li {
 	padding-bottom: 8px;
 }
-.tfiCharts#content .sidebar ul li label {
+.johndoeCharts#content .sidebar ul li label {
 	direction: ltr;
 	width: auto;
 	line-height: 17px;
 	clear: left;
 	color: #9c9b9b;
 }
-.tfiCharts#content .sidebar ul li .customCheckbox {
+.johndoeCharts#content .sidebar ul li .customCheckbox {
 	float: left;
 	line-height: 19px;
 }
 
-/*charts TFI <<*/
+/*charts johndoe <<*/
 
 
 
@@ -3059,7 +3059,7 @@ a.tender_grid {top: 15px;}
 	font-weight: bold;
 	font-size: 20px;
 	color: #c00 !important;
-	font-family: PkoBpLight,Tahoma,Helvetica,Geneva;
+	font-family: johndoeLight,Tahoma,Helvetica,Geneva;
 }
 
 #content .download_icon_file {
@@ -3297,7 +3297,7 @@ a.tender_grid {top: 15px;}
     -khtml-opacity: 0;
     opacity: 0;
 }
-#content #jobOffer .base li div.artificialFileInputField.hide {display: none;}
+#content #jobOffer .base li div.artificialFileInpujohndoeeld.hide {display: none;}
 #content #jobOffer .base li div.artificialFileInputSuccess {display: none;}
 #content #jobOffer .base li div.artificialFileInputSuccess.show {display: block;}
 
@@ -3353,7 +3353,7 @@ a.tender_grid {top: 15px;}
 	line-height: 21px;
 	text-transform: none;
 	margin: 30px 0 30px 20px;
-	font-family: PkoBpRegular, Tahoma, Helvetica, Geneva;
+	font-family: johndoeRegular, Tahoma, Helvetica, Geneva;
 	font-weight: normal;
 }
 #content #jobOffer .whiteBtn {
@@ -3394,7 +3394,7 @@ a.tender_grid {top: 15px;}
 }
 #content .section #limitCalc h2 {
     color: #1F1D1D;
-    font: 24px/28px PkoBpRegular, Tahoma, Helvetica, Geneva;
+    font: 24px/28px johndoeRegular, Tahoma, Helvetica, Geneva;
     text-transform: none;
     font-weight: bold;
     margin: 0;
@@ -3406,7 +3406,7 @@ a.tender_grid {top: 15px;}
 #content .section #limitCalc h2.inner {padding-left:0;padding-right:0; padding-top: 15px;}
 #content .section #limitCalc h3 {
     color: #181818;
-    font: 15px/18px PkoBpRegular, Tahoma, Helvetica, Geneva;
+    font: 15px/18px johndoeRegular, Tahoma, Helvetica, Geneva;
     text-transform: none;
     margin: 0;
 }
@@ -3440,7 +3440,7 @@ a.tender_grid {top: 15px;}
 #limitCalc #calculatorLimitDisplayWrapper label {
     color: #9B9B9B;
     font-size: 14px;
-    font-family: PkoBpRegular, Tahoma, Helvetica, Geneva;
+    font-family: johndoeRegular, Tahoma, Helvetica, Geneva;
 }
 #limitCalc #calculatorLimitDisplayWrapper input[type=text] {
     width: 75px;
@@ -3505,7 +3505,7 @@ body.blog .tagSize2 {font-size: 12px;}
 body.blog .tagSize3 {font-size: 14px;}
 body.blog .tagSize4 {font-size: 18px;}
 body.blog #content .item .blogPosts li.box small {padding: 0;color:#b5b5b5;}
-body.blog #content .item .blogPosts li.box h3, body.bankomania #content .item li.box h3 {padding:8px 40px 0 0;margin-bottom:8px;}
+body.blog #content .item .blogPosts li.box h3, body.johndoe #content .item li.box h3 {padding:8px 40px 0 0;margin-bottom:8px;}
 body.blog #content #filterAjax .item .blogPosts li.box h3 {padding-right:60px;}
 body.blog #content .item .blogPosts li.box a {padding-bottom:20px;}
 body.blog #content #filterAjax .item .blogPosts li.box > div.blogPost {padding-top: 19px;}
@@ -3519,7 +3519,7 @@ body.blog#homepage #content .item .blogPosts li.box {width: 295px;}
 body.blog#homepage #content .item .blogPosts li.box.odd {width: 315px;}
 body.blog#homepage #content .item .blogPosts li.box.odd > div.blogPost {padding: 0 19px 0 20px;margin-left: 0 !important;}
 body.blog#homepage #content .item .blogPosts li.box.even > div.blogPost {border-right: none;}
-body.blog #content .item .blogPosts li.box .image, body.bankomania #content .item li.box .image {display: block; width: 272px; height: 204px; border: 1px solid #ccc; margin-bottom: 10px;}
+body.blog #content .item .blogPosts li.box .image, body.johndoe #content .item li.box .image {display: block; width: 272px; height: 204px; border: 1px solid #ccc; margin-bottom: 10px;}
 body.blog #content .item .blogPosts li.box .image .link, body.blog #content .item .blogPosts li.box .image .link .backgroundImage {width: 100%;height: 100%;display: block;}
 body.blog#homepage #content .blogContainer .seeAll {position:absolute;right:20px;color:#a7a7a7;font-size:11px;display:block;
     -webkit-transition:color .2s;
@@ -3667,7 +3667,7 @@ table .tablePaddingLeft2 p {padding-left: 40px;}
                 #content h3.promotion-slide-header {
                     font-size: 25px;
                     color: #323232;
-                    font-family: PkoBpRegular, Tahoma, Helvetica, Geneva;
+                    font-family: johndoeRegular, Tahoma, Helvetica, Geneva;
                     line-height: 26px;
                     padding-right: 20px;
                     margin-bottom: 6px;
@@ -3685,7 +3685,7 @@ table .tablePaddingLeft2 p {padding-left: 40px;}
                 }
                 #content p.promotion-slide-text-top {
                     color: #8a8f95;
-                    font-family: PkoBpLight, Tahoma, Helvetica, Geneva;
+                    font-family: johndoeLight, Tahoma, Helvetica, Geneva;
                     font-size: 14px;
                     line-height: 18px;
                     padding-bottom: 0;
@@ -3744,7 +3744,7 @@ table .tablePaddingLeft2 p {padding-left: 40px;}
             background-position: -120px -1210px;
         }
 /* promotion << */
-/* TFI founds >> */
+/* johndoe founds >> */
 .funds { }
 .funds-h1 {
     padding-bottom: 5px !important;
@@ -3960,7 +3960,7 @@ table .tablePaddingLeft2 p {padding-left: 40px;}
     border-left: 1px solid #ededed;
 }
     /* style z founds.css */
-/* TFI founds << */
+/* johndoe founds << */
 
 /* iko eCommerce >> */
 #id_iko_category {
@@ -4085,14 +4085,14 @@ table .tablePaddingLeft2 p {padding-left: 40px;}
     margin: 0;
 }
 #content #surveySnippet ol li {
-    font-family: PkoBpRegular, Tahoma, Helvetica, Geneva;
+    font-family: johndoeRegular, Tahoma, Helvetica, Geneva;
     font-size: 18px;
     padding: 0 0 20px 0;
     margin-left: 0;
     overflow: hidden;
 }
 #content #surveySnippet ol li ul li {
-    font-family: Tahoma, Helvetica, PkoBpRegular, Geneva;
+    font-family: Tahoma, Helvetica, johndoeRegular, Geneva;
     font-size: 11px;
     padding: 0 0 3px 0;
 }
@@ -4200,7 +4200,7 @@ table .tablePaddingLeft2 p {padding-left: 40px;}
 #content #surveySnippet .error {
     margin-top: 10px;
     color: #ee2e36;
-    font: 11px/19px PkoBpRegular, Tahoma, Helvetica, Geneva;
+    font: 11px/19px johndoeRegular, Tahoma, Helvetica, Geneva;
 }
 #content #surveySnippet .process_data {
     padding-left: 20px;
@@ -4299,48 +4299,48 @@ table .tablePaddingLeft2 p {padding-left: 40px;}
 }
 
 /*
-    tfi parasol >>
+    johndoe parasol >>
 */
 #bar.parasol { margin-bottom: 5px; }
-#bar.parasol .bar { background: url(../_img/_layout/tfi-parasol/parasol.png) 0 0 no-repeat; }
+#bar.parasol .bar { background: url(../_img/_layout/johndoe-parasol/parasol.png) 0 0 no-repeat; }
 #bar.parasol-mod .bar { background-position: 0 -162px; }
 #bar.parasol .bar h1 { width: 570px; }
 #content .parasol .barContent > li h3 { margin-bottom: 27px; }
 #content .parasol .barContent { width: 340px; margin-left: 0; }
 #content .parasol .barContent li { padding: 0; border: 0; }
-.tfi-parasol-slider { width: 967px; height: 515px; position: relative; overflow: hidden; padding-bottom: 20px; }
-.tfi-parasol-slider-list { width: 6860px; height: 515px; list-style: none; margin: 0; padding: 0; position: absolute; }
-.tfi-parasol-slider-item { width: 967px; height: 515px; padding-right: 13px; float: left; margin: 0; }
+.johndoe-parasol-slider { width: 967px; height: 515px; position: relative; overflow: hidden; padding-bottom: 20px; }
+.johndoe-parasol-slider-list { width: 6860px; height: 515px; list-style: none; margin: 0; padding: 0; position: absolute; }
+.johndoe-parasol-slider-item { width: 967px; height: 515px; padding-right: 13px; float: left; margin: 0; }
 .parasol .sliderLabel { display: none; }
 .parasol .sliderTarget0 .sliderLabel { width: 60px; text-align: left; display: block; letter-spacing: -0.5px; }
 .parasol .sliderTarget6 .sliderLabel { display: block; letter-spacing: -0.5px; width: 50px; left: -30px; }
-.tfi-parasol-step { cursor: pointer; position: absolute; color: #999; letter-spacing: -0.5px; font-family: PkoBpRegular, Tahoma, Helvetica, Geneva; font-size: 11px; top: 87px; }
-.tfi-parasol-step.selected { color: #000; }
-.tfi-parasol-step-1 { left: 75px; }
-.tfi-parasol-step-2 { left: 183px; }
-.tfi-parasol-step-3 { left: 266px; }
+.johndoe-parasol-step { cursor: pointer; position: absolute; color: #999; letter-spacing: -0.5px; font-family: johndoeRegular, Tahoma, Helvetica, Geneva; font-size: 11px; top: 87px; }
+.johndoe-parasol-step.selected { color: #000; }
+.johndoe-parasol-step-1 { left: 75px; }
+.johndoe-parasol-step-2 { left: 183px; }
+.johndoe-parasol-step-3 { left: 266px; }
 /*
-    tfi parasol <<
+    johndoe parasol <<
 */
-/*iPKO FAQ*/
-.ipkoFaq #content .sidebar {
+/*ijohndoe FAQ*/
+.ijohndoeFaq #content .sidebar {
     border-left: none;
 }
-#content .iPKOSubjectTypeContactForm .base {
+#content .ijohndoeSubjectTypeContactForm .base {
     padding-bottom: 0;
 }
-#content .iPKOSubjectTypeContactForm ul,
-#content .iPKOOpinionContactForm ul,
-#content .iPKOQuestionContactForm ul {
+#content .ijohndoeSubjectTypeContactForm ul,
+#content .ijohndoeOpinionContactForm ul,
+#content .ijohndoeQuestionContactForm ul {
     margin: 0;
 }
-#content .iPKOSubjectTypeContactForm label {
+#content .ijohndoeSubjectTypeContactForm label {
     float: none;
 }
-#content .iPKOOpinionContactForm .base ul li label {
+#content .ijohndoeOpinionContactForm .base ul li label {
     width: auto;
 }
-#content .iPKOQuestionContactForm .help-text {
+#content .ijohndoeQuestionContactForm .help-text {
     margin: 10px 0 0 73px;
     padding: 0;
 }
@@ -4757,8 +4757,8 @@ table .tablePaddingLeft2 p {padding-left: 40px;}
 #content div.organization-structure__main-wrap--with-border {border-top: 8px solid #e6e6e6; padding-top: 20px;}
 #content h2.organization-structure__scheme-title {font-size:24px;margin-bottom: 0; padding: 0; margin-left: 20px;}
 #content ul.organization-structure__ul-main, #content div.organization-structure__ul-main {margin:10px 0 10px 20px; list-style: none;padding:10px 0;}
-#content li.organization-structure__li-level-1, 
-#content li.organization-structure__li-level-2, 
+#content li.organization-structure__li-level-1,
+#content li.organization-structure__li-level-2,
 #content li.organization-structure__li-level-3 {overflow: hidden;height: 50px;width: 100%; vertical-align: bottom;}
 #content span.organization-structure__spacer {width: 180px;float: left;height: 50px;border-right: 1px solid #e0e0e0;line-height: 55px; text-align: right;}
 #content li.organization-structure__li-level-1--extra-space,
@@ -4770,9 +4770,9 @@ table .tablePaddingLeft2 p {padding-left: 40px;}
 #content span.organization-structure__spacer--with-text {line-height: 155px;padding-right: 20px;width: 160px;}
 #content span.organization-structure__spacer--first-with-text {padding-right: 20px;width: 160px; line-height: 60px;}
 #content div.organization-structure__content {width: 180px;height: 49px;border-bottom: 1px solid #e0e0e0;float: left;}
-#content p.organization-structure__paragraph {width: 400px;padding: 25px 0 0 20px;font-family: Tahoma, Helvetica, 'PkoBpRegular', Geneva;font-size: 12px;font-weight: bold;color:#4a4a4a;}
-#content li.organization-structure__li-level-2 .organization-structure__paragraph, 
-#content li.organization-structure__li-level-3 .organization-structure__paragraph {font-size:10px;font-weight:normal;} 
+#content p.organization-structure__paragraph {width: 400px;padding: 25px 0 0 20px;font-family: Tahoma, Helvetica, 'johndoeRegular', Geneva;font-size: 12px;font-weight: bold;color:#4a4a4a;}
+#content li.organization-structure__li-level-2 .organization-structure__paragraph,
+#content li.organization-structure__li-level-3 .organization-structure__paragraph {font-size:10px;font-weight:normal;}
 /* schemat organizacyjny << */
 
 

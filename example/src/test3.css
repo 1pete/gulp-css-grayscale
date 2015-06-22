@@ -21,4 +21,14 @@ a {
 	color: hsla(255, 50%, 50%, .5);
 	color: hsla(244, 59%, 12%, .5);
 	color: hsl(186, 100%, 10%);
+    color: blue;
+    color:blue;
+    background: linear-gradient(blue, hotpink);
+    background: linear-gradient( blue, hotpink )
+}
+h2.blue {
+    color: hotpink;
+}
+h2#blue {
+    color: hotpink;
 }
