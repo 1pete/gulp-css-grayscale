@@ -18,8 +18,6 @@ var through = require('through2'),
     },
     methods = {
         average: function(r, g, b) {
-            //return Math.round((parseInt(r, 10) + parseInt(g, 10) +
-            //parseInt(b, 10)) / 3);
             return Math.round((r + g + b) / 3);
         },
         luminosity: function(r, g, b) {
@@ -65,7 +63,14 @@ function gulpCssGrayscale(opts) {
         // no support for streams
         if (file.isStream()) {
 
-            console.log('Streams are not supported.'.red);
+            console.log(
+                '   ',
+                colors.yellow(moduleName),
+                name,
+                colors.red(
+                    'Streams are not supported.'
+                )
+            );
             return callback();
 
         }
@@ -142,7 +147,12 @@ function gulpCssGrayscale(opts) {
 
         } else {
 
-            console.log('Ignoring ' + name + ' -> no buffer');
+            console.log(
+                '   ',
+                colors.yellow(moduleName),
+                name,
+                colors.red('No buffer')
+            );
             return callback();
 
         }
