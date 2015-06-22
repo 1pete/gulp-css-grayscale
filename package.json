@@ -1,0 +1,21 @@
+{
+  "name": "gulp-css-grayscale",
+  "version": "0.0.2",
+  "description": "Grayscale for css",
+  "main": "index.js",
+  "author": "Tomek Fijoł",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "css",
+    "grayscale"
+  ],
+  "repository": {
+    "type": "mercurial",
+    "url": "https://github.com/tomek-f/gulp-css-grayscale.git"
+  },
+  "dependencies": {
+    "lodash.merge": "^3.0.2",
+    "through2": "^0.6.3"
+  }
+}
