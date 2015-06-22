@@ -9,12 +9,10 @@ Converts css to grayscale version
 
 BETA!!1
 
-## Todo
+## todo
 
 * Tests
 * Comments
-* ~~Format~~
-* ~~Better log~~
 
 ## Installation
 
