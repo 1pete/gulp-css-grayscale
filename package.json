@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "lodash.merge": "^3.0.2",
-    "through2": "^0.6.3"
+    "through2": "^2.0.0"
   }
 }
