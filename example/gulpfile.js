@@ -1,11 +1,11 @@
 /* global require */
 
 var gulp = require('gulp'),
-    cssGs = require('../index.js');
+    gs = require('../index.js');
 
-gulp.task('replace', function() {
+gulp.task('gs', function() {
     return gulp.src('./src/**/*.*')
-        .pipe(cssGs({
+        .pipe(gs({
             logProgress: true,
             //algorithm: 'average',
             additionalMethods: [
@@ -30,4 +30,4 @@ gulp.task('replace', function() {
         .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('default', ['replace']);
+gulp.task('default', ['gs']);
