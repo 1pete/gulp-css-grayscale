@@ -105,8 +105,6 @@ function gulpCssGrayscale(opts) {
               parseInt(args[3], 10)
             );
 
-          //converters.debug(args);
-
           gray = args[0] + '(' + gray + ',' + gray + ',' + gray + '';
           if (args[0] === 'rgb') {
             return gray + ')';
