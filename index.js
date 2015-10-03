@@ -43,6 +43,7 @@ function gulpCssGrayscale(opts) {
   } else if (methods[options.algorithm]) {
     method = methods[options.algorithm];
   } else {
+    // 3 warunek z automatu
     method = methods.lightness;
   }
 
