@@ -13,6 +13,7 @@
   "repository": "/tomek-f/gulp-css-grayscale",
   "dependencies": {
     "chalk": "^1.1.1",
+    "cmnjs": "^0.3.3",
     "lodash.merge": "^3.3.2",
     "through2": "^2.0.0"
   },
