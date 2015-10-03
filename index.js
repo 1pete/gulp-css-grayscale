@@ -1,6 +1,7 @@
 /* global require, Buffer, module */
 
-var through = require('through2'),
+var
+  through = require('through2'),
   merge = require('lodash.merge'),
   colors = require('chalk'),
 
@@ -30,7 +31,8 @@ var through = require('through2'),
 
 function gulpCssGrayscale(opts) {
 
-  var options = merge({}, defaults, opts),
+  var
+    options = merge({}, defaults, opts),
     replacers = options.additionalMethods,
     method;
 
@@ -46,7 +48,8 @@ function gulpCssGrayscale(opts) {
 
   return through.obj(function(file, enc, callback) {
 
-    var name = file.relative,
+    var
+      name = file.relative,
       t1,
       i,
       count,
@@ -87,12 +90,14 @@ function gulpCssGrayscale(opts) {
         return converters.hexToGray(match, method);
       })
         .replace(data.reNamed, function(match, position, css) {
-          var char = css.charAt(position - 1);
+          var
+            char = css.charAt(position - 1);
           return /\.|#/.test(char) ? match :
             converters.hexToGray(data.colors[match], method);
         })
         .replace(data.reRgba, function() {
-          var args = slice.call(arguments, 1, arguments.length - 2),
+          var
+            args = slice.call(arguments, 1, arguments.length - 2),
             gray = method(
               parseInt(args[1], 10),
               parseInt(args[2], 10),
@@ -111,7 +116,8 @@ function gulpCssGrayscale(opts) {
 
         })
         .replace(data.reHsla, function() {
-          var args = slice.call(arguments, 1, arguments.length - 2),
+          var
+            args = slice.call(arguments, 1, arguments.length - 2),
             gray =
               converters
                 .hslToGray(args[1], args[2], args[3], method);

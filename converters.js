@@ -137,8 +137,6 @@ module.exports = {
       rgb = this.hexToRgb(hex),
       calculatedColor = method(rgb[0], rgb[1], rgb[2]);
 
-    //this.debug(rgb);
-
     return this
       .rgbToHex(calculatedColor, calculatedColor, calculatedColor);
   },
@@ -148,8 +146,6 @@ module.exports = {
     var
       rgb = this.hslToRgb(h, s, l),
       calculatedColor = method(rgb[0], rgb[1], rgb[2]);
-
-    //this.debug(rgb);
 
     return this
       .rgbToHsl(calculatedColor, calculatedColor, calculatedColor);
