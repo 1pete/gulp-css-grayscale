@@ -4,7 +4,11 @@ var
   through = require('through2'),
   merge = require('lodash.merge'),
   colors = require('chalk'),
-
+  convert = require('cmnjs/color/convert'),
+  regExp = require('cmnjs/color/regExp'),
+  namedColors = require('cmnjs/data/named'),
+  methods = convert.rgbToGray,
+  
   data = require('./regexp-and-data'),
   converters = require('./converters'),
 
@@ -16,17 +20,6 @@ var
     algorithm: 'lightness',
     logProgress: false,
     additionalMethods: []
-  },
-  methods = {
-    average: function(r, g, b) {
-      return Math.round((r + g + b) / 3);
-    },
-    luminosity: function(r, g, b) {
-      return Math.round(0.21 * r + 0.72 * g + 0.07 * b);
-    },
-    lightness: function(r, g, b) {
-      return Math.round(0.5 * (Math.max(r, g, b) + Math.min(r, g, b)));
-    }
   };
 
 function gulpCssGrayscale(opts) {
@@ -42,9 +35,6 @@ function gulpCssGrayscale(opts) {
     method = options.algorithm;
   } else if (methods[options.algorithm]) {
     method = methods[options.algorithm];
-  } else {
-    // 3 warunek z automatu
-    method = methods.lightness;
   }
 
   return through.obj(function(file, enc, callback) {
