@@ -13,7 +13,7 @@
     "css",
     "grayscale"
   ],
-  "repository": "/tomek-f/gulp-css-grayscale",
+  "repository": "tomek-f/gulp-css-grayscale",
   "dependencies": {
     "cmnjs": "^0.3.4",
     "gulp-util": "^3.0.6",
