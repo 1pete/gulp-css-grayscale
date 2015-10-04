@@ -3,13 +3,18 @@
 var
   through = require('through2'),
   merge = require('lodash.merge'),
-  chalk = require('chalk'),
   convert = require('cmnjs/color/convert'),
   regExp = require('cmnjs/color/regExp'),
   namedColors = require('cmnjs/color/data/named'),
   methods = convert.rgbToGray,
+  peformance = require('performance-now'),
+  util = require('gulp-util'),
+  chalk = util.colors,
+  packageJson = require('./package.json'),
+  parseInt10 = require('cmnjs/number/parseInt10'),
 
-  moduleName = module.filename.split('/').splice(-2, 1)[0],
+  moduleName = packageJson.name,
+  version = packageJson.version,
 
   slice = Array.prototype.slice,
 
@@ -38,6 +43,8 @@ function gulpCssGrayscale(opts) {
 
     var
       name = file.relative,
+      log = util.log.bind(util, chalk.yellow(moduleName + '@' + version),
+        chalk.blue(name)),
       t1,
       i,
       count,
@@ -45,6 +52,10 @@ function gulpCssGrayscale(opts) {
 
     // pass file through
     if (file.isNull() || file.isDirectory()) {
+
+      if (options.logProgress) {
+        log(chalk.blue('File is null/directory - just passing it through'));
+      }
 
       this.push(file);
       return callback();
@@ -54,14 +65,8 @@ function gulpCssGrayscale(opts) {
     // no support for streams
     if (file.isStream()) {
 
-      console.log(
-        '   ',
-        chalk.yellow(moduleName),
-        name,
-        chalk.red(
-          'Streams are not supported.'
-        )
-      );
+      log(chalk.red('Streams are not supported.'));
+
       return callback();
 
     }
@@ -69,7 +74,7 @@ function gulpCssGrayscale(opts) {
     if (file.isBuffer()) {
 
       if (options.logProgress) {
-        t1 = Date.now();
+        t1 = peformance();
       }
 
       string = String(file.contents);
@@ -84,13 +89,10 @@ function gulpCssGrayscale(opts) {
             : convert.hexToGray(namedColors[match], method);
         })
         .replace(regExp.rgba, function() {
+
           var
             args = slice.call(arguments, 1, arguments.length - 2),
-            gray = method(
-              parseInt(args[1], 10),
-              parseInt(args[2], 10),
-              parseInt(args[3], 10)
-            );
+            gray = method.apply(null, args.slice(1).map(parseInt10));
 
           gray = args[0] + '(' + gray + ',' + gray + ',' + gray + '';
           if (args[0] === 'rgb') {
@@ -125,29 +127,21 @@ function gulpCssGrayscale(opts) {
       this.push(file);
 
       if (options.logProgress) {
-        console.log(
-          '   ',
-          chalk.yellow(moduleName),
-          name,
-          chalk.magenta((Date.now() - t1).toFixed() + ' ms')
-        );
+        log(chalk.magenta((peformance() - t1).toFixed(3) + ' ms'));
       }
 
       return callback();
 
     } else {
 
-      console.log(
-        '   ',
-        chalk.yellow(moduleName),
-        name,
-        chalk.red('No buffer')
-      );
+      log(chalk.red('No buffer'));
+
       return callback();
 
     }
 
   });
+
 }
 
 module.exports = gulpCssGrayscale;

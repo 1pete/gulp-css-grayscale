@@ -12,9 +12,10 @@
   ],
   "repository": "/tomek-f/gulp-css-grayscale",
   "dependencies": {
-    "chalk": "^1.1.1",
-    "cmnjs": "^0.3.3",
+    "cmnjs": "^0.3.4",
+    "gulp-util": "^3.0.6",
     "lodash.merge": "^3.3.2",
+    "performance-now": "^0.2.0",
     "through2": "^2.0.0"
   },
   "bugs": {
