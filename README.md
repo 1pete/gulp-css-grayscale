@@ -1,9 +1,6 @@
-gulp-image-grayscale
-===========
+#gulp-image-grayscale
 
-## Description
-
-Converts css colors to grayscale version. Supports algorithms and custom replacers.
+> Converts css colors to grayscale version
 
 ## 2do
 
