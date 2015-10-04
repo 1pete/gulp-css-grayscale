@@ -43,12 +43,10 @@ function gulpCssGrayscale(opts) {
 
     var
       name = file.relative,
+      fileString,
       log = util.log.bind(util, chalk.yellow(moduleName + '@' + version),
         chalk.blue(name)),
-      t1,
-      i,
-      count,
-      string;
+      t1;
 
     // pass file through
     if (file.isNull() || file.isDirectory()) {
@@ -77,9 +75,9 @@ function gulpCssGrayscale(opts) {
         t1 = peformance();
       }
 
-      string = String(file.contents);
+      fileString = String(file.contents);
 
-      string = string.replace(regExp.hex, function(match) {
+      fileString = fileString.replace(regExp.hex, function(match) {
         return convert.hexToGray(match, method);
       })
         .replace(regExp.named, function(match, position, css) {
@@ -117,12 +115,12 @@ function gulpCssGrayscale(opts) {
           }
         });
 
-      for (i = 0, count = replacers.length; i < count; i++) {
-        string =
-          string.replace(replacers[i].find, replacers[i].replace);
+      for (var i = 0, count = replacers.length; i < count; i++) {
+        fileString =
+          fileString.replace(replacers[i].find, replacers[i].replace);
       }
 
-      file.contents = new Buffer(string);
+      file.contents = new Buffer(fileString);
 
       this.push(file);
 
