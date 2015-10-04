@@ -10,7 +10,7 @@
 ## Installation
 
 ```bash
-$ npm install gulp-css-grayscale
+$ npm install --save gulp-css-grayscale
 ```
 
 ## Example
@@ -54,11 +54,9 @@ gulp.task('default', ['gs-css']);
 
 ```javascript
 var defaults = {
-    
   algorithm: 'lightness',
-
-  logProgress: false
-
+  logProgress: false,
+  additionalMethods: []
 };
 ```
 
@@ -68,6 +66,7 @@ var defaults = {
 average -> (r + g + b) / 3;
 luminosity -> 0.21 * r + 0.72 * g + 0.07 * b;
 lightness (default) -> 0.5 * (max(r, g, b) + min(r, g, b));
+
 own -> algorithm: function(r, g, b) {
   return r * 0.25 + g * 0.5 + b * 0.25;
 }
