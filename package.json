@@ -1,6 +1,6 @@
 {
   "name": "gulp-css-grayscale",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Converts css colors to grayscale version",
   "main": "index.js",
   "author": "Tomek Fijoł",
