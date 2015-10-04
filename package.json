@@ -20,9 +20,5 @@
     "lodash.merge": "^3.3.2",
     "performance-now": "^0.2.0",
     "through2": "^2.0.0"
-  },
-  "bugs": {
-    "url": "https://github.com/tomek-f/gulp-css-grayscale/issues"
-  },
-  "homepage": "https://github.com/tomek-f/gulp-css-grayscale#readme"
+  }
 }
