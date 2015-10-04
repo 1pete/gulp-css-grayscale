@@ -5,14 +5,10 @@ gulp-image-grayscale
 
 Converts css to grayscale version
 
-## Important!!1
-
-BETA!!1
-
 ## todo
 
-* Tests
-* Comments
+* More tests
+* More comments
 
 ## Installation
 
@@ -69,7 +65,7 @@ var defaults = {
 };
 ```
 
-### algorithm
+### Algorithms
 
 ```text
 average -> (r + g + b) / 3;
