@@ -11,7 +11,8 @@
   ],
   "keywords": [
     "css",
-    "grayscale"
+    "grayscale",
+    "gulp"
   ],
   "repository": "tomek-f/gulp-css-grayscale",
   "dependencies": {
