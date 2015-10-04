@@ -6,6 +6,9 @@
   "author": "Tomek Fijoł",
   "license": "MIT",
   "readmeFilename": "README.md",
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "css",
     "grayscale"
