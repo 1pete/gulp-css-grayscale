@@ -3,14 +3,11 @@
 var
   through = require('through2'),
   merge = require('lodash.merge'),
-  colors = require('chalk'),
+  chalk = require('chalk'),
   convert = require('cmnjs/color/convert'),
   regExp = require('cmnjs/color/regExp'),
   namedColors = require('cmnjs/color/data/named'),
   methods = convert.rgbToGray,
-  
-  data = require('./regexp-and-data'),
-  converters = require('./converters'),
 
   moduleName = module.filename.split('/').splice(-2, 1)[0],
 
@@ -59,9 +56,9 @@ function gulpCssGrayscale(opts) {
 
       console.log(
         '   ',
-        colors.yellow(moduleName),
+        chalk.yellow(moduleName),
         name,
-        colors.red(
+        chalk.red(
           'Streams are not supported.'
         )
       );
@@ -77,16 +74,16 @@ function gulpCssGrayscale(opts) {
 
       string = String(file.contents);
 
-      string = string.replace(data.reHex, function(match) {
-        return converters.hexToGray(match, method);
+      string = string.replace(regExp.hex, function(match) {
+        return convert.hexToGray(match, method);
       })
-        .replace(data.reNamed, function(match, position, css) {
+        .replace(regExp.named, function(match, position, css) {
           var
             char = css.charAt(position - 1);
-          return /\.|#/.test(char) ? match :
-            converters.hexToGray(data.colors[match], method);
+          return /\.|#/.test(char) ? match
+            : convert.hexToGray(namedColors[match], method);
         })
-        .replace(data.reRgba, function() {
+        .replace(regExp.rgba, function() {
           var
             args = slice.call(arguments, 1, arguments.length - 2),
             gray = method(
@@ -104,12 +101,10 @@ function gulpCssGrayscale(opts) {
           }
 
         })
-        .replace(data.reHsla, function() {
+        .replace(regExp.hsla, function() {
           var
             args = slice.call(arguments, 1, arguments.length - 2),
-            gray =
-              converters
-                .hslToGray(args[1], args[2], args[3], method);
+            gray = convert.hslToGray(args[1], args[2], args[3], method);
           gray = args[0] + '(' + gray[0] + ',' + gray[1] +
             '%,' + gray[2] + '%';
           if (args[0] === 'hsl') {
@@ -132,9 +127,9 @@ function gulpCssGrayscale(opts) {
       if (options.logProgress) {
         console.log(
           '   ',
-          colors.yellow(moduleName),
+          chalk.yellow(moduleName),
           name,
-          colors.magenta((Date.now() - t1).toFixed() + ' ms')
+          chalk.magenta((Date.now() - t1).toFixed() + ' ms')
         );
       }
 
@@ -144,9 +139,9 @@ function gulpCssGrayscale(opts) {
 
       console.log(
         '   ',
-        colors.yellow(moduleName),
+        chalk.yellow(moduleName),
         name,
-        colors.red('No buffer')
+        chalk.red('No buffer')
       );
       return callback();
 
