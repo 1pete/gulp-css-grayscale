@@ -3,9 +3,9 @@ gulp-image-grayscale
 
 ## Description
 
-Converts css to grayscale version
+Converts css colors to grayscale version.
 
-## todo
+## 2do
 
 * More tests
 * More comments
