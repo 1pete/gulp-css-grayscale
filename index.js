@@ -6,7 +6,7 @@ var
   colors = require('chalk'),
   convert = require('cmnjs/color/convert'),
   regExp = require('cmnjs/color/regExp'),
-  namedColors = require('cmnjs/data/named'),
+  namedColors = require('cmnjs/color/data/named'),
   methods = convert.rgbToGray,
   
   data = require('./regexp-and-data'),
