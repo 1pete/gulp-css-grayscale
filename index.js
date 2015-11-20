@@ -1,35 +1,33 @@
 /* global require, Buffer, module */
 
-var
-  through = require('through2'),
-  merge = require('lodash.merge'),
-  convert = require('cmnjs/color/convert'),
-  regExp = require('cmnjs/color/regExp'),
-  namedColors = require('cmnjs/color/data/named'),
-  methods = convert.rgbToGray,
-  peformance = require('performance-now'),
-  util = require('gulp-util'),
-  chalk = util.colors,
-  packageJson = require('./package.json'),
-  parseInt10 = require('cmnjs/number/parseInt10'),
+var through = require('through2');
+var merge = require('lodash.merge');
+var convert = require('cmnjs/color/convert');
+var regExp = require('cmnjs/color/regExp');
+var namedColors = require('cmnjs/color/data/named');
+var peformance = require('performance-now');
+var util = require('gulp-util');
+var packageJson = require('./package.json');
+var parseInt10 = require('cmnjs/number/parseInt10');
 
-  moduleName = packageJson.name,
-  version = packageJson.version,
+var methods = convert.rgbToGray;
+var chalk = util.colors;
+var moduleName = packageJson.name;
+var version = packageJson.version;
 
-  slice = Array.prototype.slice,
+var slice = Array.prototype.slice;
 
-  defaults = {
-    algorithm: 'lightness',
-    logProgress: false,
-    additionalMethods: []
-  };
+var defaults = {
+  algorithm: 'lightness',
+  logProgress: false,
+  additionalMethods: []
+};
 
 function gulpCssGrayscale(opts) {
 
-  var
-    options = merge({}, defaults, opts),
-    replacers = options.additionalMethods,
-    method;
+  var options = merge({}, defaults, opts);
+  var replacers = options.additionalMethods;
+  var method;
 
   // console.log(opts);
 
@@ -41,12 +39,11 @@ function gulpCssGrayscale(opts) {
 
   return through.obj(function(file, enc, callback) {
 
-    var
-      name = file.relative,
-      fileString,
-      log = util.log.bind(util, chalk.yellow(moduleName + '@' + version),
-        chalk.blue(name)),
-      t1;
+    var name = file.relative;
+    var fileString;
+    var log = util.log.bind(util, chalk.yellow(moduleName + '@' + version),
+      chalk.blue(name));
+    var t1;
 
     // pass file through
     if (file.isNull() || file.isDirectory()) {
@@ -81,30 +78,27 @@ function gulpCssGrayscale(opts) {
         return convert.hexToGray(match, method);
       })
         .replace(regExp.named, function(match, position, css) {
-          var
-            char = css.charAt(position - 1);
+          var char = css.charAt(position - 1);
           return /\.|#/.test(char) ? match
             : convert.hexToGray(namedColors[match], method);
         })
         .replace(regExp.rgba, function() {
 
-          var
-            args = slice.call(arguments, 1, arguments.length - 2),
-            gray = method.apply(null, args.slice(1).map(parseInt10));
+          var args = slice.call(arguments, 1, arguments.length - 2);
+          var gray = method.apply(null, args.slice(1).map(parseInt10));
 
           gray = args[0] + '(' + gray + ',' + gray + ',' + gray + '';
           if (args[0] === 'rgb') {
             return gray + ')';
           } else {
             return gray + ',' + parseFloat(args[5]).toString()
-                .replace('0.', '.') + ')';
+              .replace('0.', '.') + ')';
           }
 
         })
         .replace(regExp.hsla, function() {
-          var
-            args = slice.call(arguments, 1, arguments.length - 2),
-            gray = convert.hslToGray(args[1], args[2], args[3], method);
+          var args = slice.call(arguments, 1, arguments.length - 2);
+          var gray = convert.hslToGray(args[1], args[2], args[3], method);
           gray = args[0] + '(' + gray[0] + ',' + gray[1] +
             '%,' + gray[2] + '%';
           if (args[0] === 'hsl') {
