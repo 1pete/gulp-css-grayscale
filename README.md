@@ -1,4 +1,4 @@
-# gulp-image-grayscale
+# gulp-css-grayscale
 
 > Converts css colors to grayscale version
 
