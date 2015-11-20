@@ -2,6 +2,7 @@
 
 ## x.x.x
 
+* README.md
 * changelog.md in package.json files
 * 2do.md
 
