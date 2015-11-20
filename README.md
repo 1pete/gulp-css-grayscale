@@ -2,11 +2,6 @@
 
 > Converts css colors to grayscale version
 
-## 2do
-
-* More tests
-* More comments
-
 ## Installation
 
 ```bash
