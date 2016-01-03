@@ -16,7 +16,7 @@
   ],
   "repository": "tomek-f/gulp-css-grayscale",
   "dependencies": {
-    "cmnjs": "^0.3.7",
+    "cmnjs": "^1.0.5",
     "gulp-util": "^3.0.6",
     "lodash.merge": "^3.3.2",
     "performance-now": "^0.2.0",
